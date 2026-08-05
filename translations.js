@@ -2,7 +2,7 @@ const TRANSLATIONS = {
   en: {
     nav_home: "Home", nav_about: "About", nav_projects: "Projects", nav_contact: "Contact",
     hero_eyebrow: "AVAILABLE FOR FREELANCE",
-    hero_title_1: "I build", hero_title_2: "interfaces", hero_title_3: "that feel alive.",
+    hero_title_1: "I build", hero_title_2: "websites", hero_title_3: "that feel alive.",
     hero_lead: "I'm a passionate multiplatform development student with big ambitions in web development.",
     btn_view_projects: "View Projects →", btn_get_in_touch: "Get in Touch",
     stat_years: "YEARS OF CODING", stat_projects: "PROJECTS COMPLETED", stat_clients: "CUPS OF COFFEE",
@@ -48,7 +48,7 @@ const TRANSLATIONS = {
   es: {
     nav_home: "Inicio", nav_about: "Sobre mí", nav_projects: "Proyectos", nav_contact: "Contacto",
     hero_eyebrow: "DISPONIBLE PARA FREELANCE",
-    hero_title_1: "Construyo", hero_title_2: "interfaces", hero_title_3: "que se sienten vivas.",
+    hero_title_1: "Construyo", hero_title_2: "paginas web", hero_title_3: "que se sienten vivas.",
     hero_lead: "Soy una estudiante apasionada de desarrollo multiplataforma con grandes ambiciones en el desarrollo web.",
     btn_view_projects: "Ver Proyectos →", btn_get_in_touch: "Contactar",
     stat_years: "AÑOS PROGRAMANDO", stat_projects: "PROYECTOS COMPLETADOS", stat_clients: "TAZAS DE CAFÉ",
@@ -92,7 +92,7 @@ const TRANSLATIONS = {
   },
 
   fr: {
-    nav_home: "Accueil", nav_about: "À propos", nav_projects: "Projets", nav_contact: "Contact",
+    nav_home: "Accueil", nav_about: "À propos", nav_projects: "pages web", nav_contact: "Contact",
     hero_eyebrow: "DISPONIBLE EN FREELANCE",
     hero_title_1: "Je construis des", hero_title_2: "interfaces", hero_title_3: "qui semblent vivantes.",
     hero_lead: "Je suis une étudiante passionnée en développement multiplateforme, avec de grandes ambitions dans le développement web.",
@@ -138,7 +138,7 @@ const TRANSLATIONS = {
   },
 
   ja: {
-    nav_home: "ホーム", nav_about: "プロフィール", nav_projects: "プロジェクト", nav_contact: "お問い合わせ",
+    nav_home: "ホーム", nav_about: "プロフィール", nav_projects: "ウェブページ", nav_contact: "お問い合わせ",
     hero_eyebrow: "フリーランス受付中",
     hero_title_1: "生きているような", hero_title_2: "インターフェース", hero_title_3: "を作っています。",
     hero_lead: "私はマルチプラットフォーム開発を学ぶ学生で、Web開発に大きな夢を持っています。",
@@ -184,7 +184,7 @@ const TRANSLATIONS = {
   },
 
   ko: {
-    nav_home: "홈", nav_about: "소개", nav_projects: "프로젝트", nav_contact: "연락처",
+    nav_home: "홈", nav_about: "소개", nav_projects: "웹 페이지", nav_contact: "연락처",
     hero_eyebrow: "프리랜스 가능",
     hero_title_1: "살아있는 느낌의", hero_title_2: "인터페이스", hero_title_3: "를 만듭니다.",
     hero_lead: "저는 웹 개발에 큰 포부를 가진, 멀티플랫폼 개발을 공부하는 열정적인 학생입니다.",
