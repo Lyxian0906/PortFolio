@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Projects Lyx</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="blobs">
+			<div class="blob blob-1"></div>
+			<div class="blob blob-2"></div>
+			<div class="blob blob-3"></div>
+		</div>
+		<div class="cursor-glow"></div>
+
+		<header class="site-nav">
+			<div class="nav-inner">
+				<a href="index.html" class="logo">lyx<span>.dev</span></a>
+				<nav class="nav-links">
+					<a href="index.html" data-i18n="nav_home">Home</a>
+					<a href="about.html" data-i18n="nav_about">About</a>
+					<a href="projects.html" data-i18n="nav_projects">Projects</a>
+					<a href="contact.html" data-i18n="nav_contact">Contact</a>
+				</nav>
+				<button class="nav-toggle" aria-label="Toggle menu">☰</button>
+			</div>
+		</header>
+
+		<main>
+			<section class="wrap" style="padding-bottom: 20px">
+				<p class="eyebrow reveal" data-i18n="projects_eyebrow">SELECTED WORK</p>
+				<h1
+					class="reveal"
+					style="font-size: clamp(2rem, 4vw, 2.8rem); max-width: 680px"
+				>
+					<span data-i18n="projects_title_1">Things I've</span>
+					<span class="gradient-text" data-i18n="projects_title_2"
+						>designed, built, and cried with.</span
+					>
+				</h1>
+			</section>
+
+			<section class="wrap" style="padding-top: 0">
+				<div class="filters reveal">
+					<button
+						class="filter-btn active-filter"
+						data-filter="all"
+						data-i18n="filter_all"
+					>
+						All
+					</button>
+					<button
+						class="filter-btn"
+						data-filter="frontend"
+						data-i18n="filter_frontend"
+					>
+						Frontend
+					</button>
+					<button
+						class="filter-btn"
+						data-filter="backend"
+						data-i18n="filter_backend"
+					>
+						Backend
+					</button>
+					<button
+						class="filter-btn"
+						data-filter="fullstack"
+						data-i18n="filter_fullstack"
+					>
+						Full-Stack
+					</button>
+				</div>
+
+				<div class="grid grid-2">
+					<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">📖</div>
+							<div class="project-links">
+								<a href="#" data-i18n="link_live">Live</a>
+								<a href="#" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p1_title">Book Library (not public)</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p1_desc">
+								A full-stack library management system built with Java and
+								Spring Boot. It allows users to manage books, authors, and user
+								accounts with secure authentication, role-based access, and a
+								SQL Server database.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Java</span>
+							<span class="tag">Spring Boot</span>
+							<span class="tag">Spring Data JPA</span>
+							<span class="tag">SQL Server</span>
+							<span class="tag">Gradle</span>
+						</div>
+					</div>
+
+					<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">🌳</div>
+							<div class="project-links">
+								<a href="https://lyxian0906.github.io/LyxianWeb/" target="_blank" rel="noopener" data-i18n="link_live">Live</a>
+								<a href="https://github.com/Lyxian0906/LyxianWeb" target="_blank" rel="noopener" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p2_title">Memory Tree</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p2_desc">
+								A personal website where users can capture memories and emotions
+								by placing glowing orbs on a magical tree. Built with Firebase
+								Authentication and Firestore, allowing each user to create and
+								manage their own unique memory tree.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">JavaScript</span>
+							<span class="tag">Firebase</span>
+							<span class="tag">Firestore</span>
+							<span class="tag">HTML</span>
+							<span class="tag">CSS</span>
+						</div>
+					</div>
+
+					<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">🎧</div>
+							<div class="project-links">
+								<a href="https://lyxian0906.github.io/Mini-Reproductor-de-musica/" target="_blank" rel="noopener" data-i18n="link_live">Live</a>
+								<a href="https://github.com/Lyxian0906/Mini-Reproductor-de-musica" target="_blank" rel="noopener" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p3_title">Web Music Player</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p3_desc">
+								One of my first JavaScript projects, featuring a custom
+								web-based music player with playlists, playback controls, and a
+								clean, responsive interface. It helped me strengthen my
+								JavaScript skills and understand DOM manipulation.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">JavaScript</span>
+							<span class="tag">HTML</span>
+							<span class="tag">CSS</span>
+						</div>
+					</div>
+
+					<div
+						class="card card-glow project-card reveal"
+						data-tags="frontend"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">🌍</div>
+
+							<div class="project-links">
+								<a href="#" target="_blank" rel="noopener" data-i18n="link_live">Live</a>
+								<a href="#" target="_blank" rel="noopener" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p5_title">Air Quality Analysis Dashboard (not public)</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p5_desc">
+								A data analysis project focused on monitoring and visualizing
+								air quality information. Built using SQL, ETL processes, and
+								Power BI to transform raw environmental data into interactive
+								dashboards and meaningful insights.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Power BI</span>
+							<span class="tag">SQL</span>
+							<span class="tag">ETL</span>
+							<span class="tag">Data Analysis</span>
+						</div>
+					</div>
+
+					<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">📷</div>
+
+							<div class="project-links">
+								<a href="https://lyxian0906.github.io/CameraApp/" target="_blank" rel="noopener" data-i18n="link_live">Live</a>
+								<a href="https://github.com/Lyxian0906/CameraApp" target="_blank" rel="noopener" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p6_title">Camera Management System</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p6_desc">
+								A desktop application developed in Java for managing camera
+								equipment and inventory. The project allows users to organize
+								products, handle data efficiently, and apply object-oriented
+								programming principles through a structured and user-friendly
+								interface.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Java</span>
+							<span class="tag">Swing</span>
+							<span class="tag">OOP</span>
+							<span class="tag">Desktop Application</span>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="wrap footer-inner">
+				<div class="footer-note" data-i18n="footer_note">
+					© 2026 Lyxian. Built with too much coffee and not enough sleep.
+				</div>
+				<div class="footer-links">
+					<a href="https://github.com/Lyxian0906">GitHub</a>
+					<a href="https://www.linkedin.com/in/alba-manzano-lópez">LinkedIn</a>
+					<a
+						href="https://www.instagram.com/albiilyx_?igsh=MXUwNDk5c2tuYWFhNQ=="
+						>Instagram (coming soon)</a
+					>
+				</div>
+			</div>
+		</footer>
+
+		<script src="translations.js"></script>
+		<script src="i18n.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
