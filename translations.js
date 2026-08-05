@@ -92,9 +92,9 @@ const TRANSLATIONS = {
   },
 
   fr: {
-    nav_home: "Accueil", nav_about: "À propos", nav_projects: "pages web", nav_contact: "Contact",
+    nav_home: "Accueil", nav_about: "À propos", nav_projects: "projets", nav_contact: "Contact",
     hero_eyebrow: "DISPONIBLE EN FREELANCE",
-    hero_title_1: "Je construis des", hero_title_2: "interfaces", hero_title_3: "qui semblent vivantes.",
+    hero_title_1: "Je construis des", hero_title_2: "pages web", hero_title_3: "qui semblent vivantes.",
     hero_lead: "Je suis une étudiante passionnée en développement multiplateforme, avec de grandes ambitions dans le développement web.",
     btn_view_projects: "Voir les Projets →", btn_get_in_touch: "Me Contacter",
     stat_years: "ANS DE CODE", stat_projects: "PROJETS RÉALISÉS", stat_clients: "TASSES DE CAFÉ",
@@ -140,7 +140,7 @@ const TRANSLATIONS = {
   it: {
     nav_home: "Home", nav_about: "Chi sono", nav_projects: "Progetti", nav_contact: "Contatti",
     hero_eyebrow: "DISPONIBILE PER FREELANCE",
-    hero_title_1: "Costruisco", hero_title_2: "interfacce", hero_title_3: "che sembrano vive.",
+    hero_title_1: "Costruisco", hero_title_2: "pagine web", hero_title_3: "che sembrano vive.",
     hero_lead: "Sono una studentessa appassionata di sviluppo multipiattaforma con grandi ambizioni nello sviluppo web.",
     btn_view_projects: "Vedi i Progetti →", btn_get_in_touch: "Contattami",
     stat_years: "ANNI DI CODICE", stat_projects: "PROGETTI COMPLETATI", stat_clients: "TAZZE DI CAFFÈ",
@@ -186,7 +186,7 @@ const TRANSLATIONS = {
   ru: {
     nav_home: "Главная", nav_about: "Обо мне", nav_projects: "Проекты", nav_contact: "Контакты",
     hero_eyebrow: "ДОСТУПНА ДЛЯ ФРИЛАНСА",
-    hero_title_1: "Я создаю", hero_title_2: "интерфейсы", hero_title_3: "которые кажутся живыми.",
+    hero_title_1: "Я создаю", hero_title_2: "веб-страницы", hero_title_3: "которые кажутся живыми.",
     hero_lead: "Я увлечённая студентка, изучающая кроссплатформенную разработку, с большими амбициями в веб-разработке.",
     btn_view_projects: "Смотреть Проекты →", btn_get_in_touch: "Связаться",
     stat_years: "ЛЕТ В ПРОГРАММИРОВАНИИ", stat_projects: "ЗАВЕРШЁННЫХ ПРОЕКТОВ", stat_clients: "ЧАШЕК КОФЕ",
@@ -231,9 +231,9 @@ const TRANSLATIONS = {
 
 
   ja: {
-    nav_home: "ホーム", nav_about: "プロフィール", nav_projects: "ウェブページ", nav_contact: "お問い合わせ",
+    nav_home: "ホーム", nav_about: "プロフィール", nav_projects: "プロジェクト", nav_contact: "お問い合わせ",
     hero_eyebrow: "フリーランス受付中",
-    hero_title_1: "生きているような", hero_title_2: "インターフェース", hero_title_3: "を作っています。",
+    hero_title_1: "生きているような", hero_title_2: "ウェブページ", hero_title_3: "を作っています。",
     hero_lead: "私はマルチプラットフォーム開発を学ぶ学生で、Web開発に大きな夢を持っています。",
     btn_view_projects: "プロジェクトを見る →", btn_get_in_touch: "お問い合わせ",
     stat_years: "年のコーディング経験", stat_projects: "完了したプロジェクト", stat_clients: "飲んだコーヒーの杯数",
@@ -277,9 +277,9 @@ const TRANSLATIONS = {
   },
 
   ko: {
-    nav_home: "홈", nav_about: "소개", nav_projects: "웹 페이지", nav_contact: "연락처",
+    nav_home: "홈", nav_about: "소개", nav_projects: "프로젝트", nav_contact: "연락처",
     hero_eyebrow: "프리랜스 가능",
-    hero_title_1: "살아있는 느낌의", hero_title_2: "인터페이스", hero_title_3: "를 만듭니다.",
+    hero_title_1: "살아있는 느낌의", hero_title_2: "웹 페이지", hero_title_3: "를 만듭니다.",
     hero_lead: "저는 웹 개발에 큰 포부를 가진, 멀티플랫폼 개발을 공부하는 열정적인 학생입니다.",
     btn_view_projects: "프로젝트 보기 →", btn_get_in_touch: "연락하기",
     stat_years: "년 코딩 경력", stat_projects: "완료한 프로젝트", stat_clients: "마신 커피 잔 수",
@@ -321,10 +321,10 @@ const TRANSLATIONS = {
     info_email_title: "이메일", info_location_title: "위치", info_location_val: "아스투리아스, 스페인 (원격 근무 가능)",
     info_response_title: "응답 시간", info_response_val: "보통 24시간 이내 (현재는 어려움)",
   },
-  zh: {
+    zh: {
     nav_home: "首页", nav_about: "关于我", nav_projects: "项目", nav_contact: "联系方式",
     hero_eyebrow: "接受自由职业项目",
-    hero_title_1: "我构建", hero_title_2: "界面", hero_title_3: "让它们充满生命力。",
+    hero_title_1: "我构建", hero_title_2: "網頁", hero_title_3: "让它们充满生命力。",
     hero_lead: "我是一名热爱多平台开发的学生，对网页开发抱有远大的志向。",
     btn_view_projects: "查看项目 →", btn_get_in_touch: "联系我",
     stat_years: "年编程经验", stat_projects: "个已完成项目", stat_clients: "杯咖啡",
@@ -340,7 +340,7 @@ const TRANSLATIONS = {
     cta_title: "有项目想法吗？（暂未开放）", cta_lead: "让我们把它变成人们真正喜欢使用的东西。",
     btn_start_convo: "开始对话 →",
     footer_note: "© 2026 Lyxian。靠太多咖啡和不够的睡眠制作而成。",
-
+ 
     about_eyebrow: "关于我",
     about_title_1: "嗨，我是 Lyx —", about_title_2: "我制作网站和软件。",
     about_lead: "我目前是一名软件开发专业的学生，喜欢做项目和学习新技术。我喜欢挑战自己，独立创造东西，探索新想法。除了编程之外，我喜欢电子游戏、读书、徒步旅行和旅行。我最大的梦想之一就是开发属于自己的电子游戏，将我对编程的热情与数字设计结合起来。",
@@ -348,7 +348,7 @@ const TRANSLATIONS = {
     exp_eyebrow: "经历", exp_title: "我的历程",
     exp1_role: "网络安全讲师，Cybervolunteers Foundation", exp1_desc: "为儿童、青少年和成年人提供网络安全培训，通过针对不同技能水平和个人需求量身定制的课程，教授负责任地使用科技的方法。有效管理时间，同时使用各种数字工具来提升学习效果。设计互动活动，打造更具吸引力和活力的学习体验。",
     exp2_role: "软件技术员，Castroalonso", exp2_desc: "在整个软件开发生命周期中开发前端和后端功能。参与团队项目合作，在规划、组织和交付软件解决方案的过程中，加强了沟通、团队协作和问题解决能力。",
-
+ 
     projects_eyebrow: "精选作品", projects_title_1: "这些是我", projects_title_2: "设计、构建并为之心力交瘁的项目。",
     filter_all: "全部", filter_frontend: "前端", filter_backend: "后端", filter_fullstack: "全栈",
     link_live: "在线预览", link_code: "代码",
@@ -357,7 +357,7 @@ const TRANSLATIONS = {
     p3_title: "Web Music Player", p3_desc: "我最早的 JavaScript 项目之一，具有自定义的网页音乐播放器，支持播放列表、播放控制，并拥有简洁、响应式的界面。它帮助我巩固了 JavaScript 技能，并理解了 DOM 操作。",
     p5_title: "Air Quality Analysis Dashboard", p5_desc: "一个专注于监测和可视化空气质量信息的数据分析项目。使用 SQL、ETL 流程和 Power BI，将原始环境数据转化为交互式仪表盘和有意义的洞察。",
     p6_title: "Camera Management System", p6_desc: "一款使用 Java 开发的桌面应用程序，用于管理相机设备和库存。该项目让用户能够整理产品、高效处理数据，并通过结构清晰、易于使用的界面应用面向对象编程的原则。",
-
+ 
     contact_eyebrow: "聊一聊", contact_title_1: "有项目想法吗？", contact_title_2: "让我们一起实现它。",
     contact_lead: "填写表单或直接联系我——我通常会在一天内回复。（暂未开放）",
     label_name: "你的姓名", label_email: "邮箱", label_budget: "项目预算", label_message: "留言",
