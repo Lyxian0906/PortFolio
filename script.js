@@ -82,6 +82,7 @@
 })();
 
 // ---------- Contact form (cosmetic) ----------
+/*
 (function(){
   const form = document.getElementById('contact-form');
   if(!form) return;
@@ -102,6 +103,47 @@
     }, 900);
   });
 })();
+*/
+
+
+//------------ Contact for real------------------------
+(function(){
+  const form = document.getElementById('contact-form');
+  if(!form) return;
+  const btn = form.querySelector('button[type="submit"]');
+ 
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const dict = (typeof TRANSLATIONS !== 'undefined') ? (TRANSLATIONS[getCurrentLang()] || TRANSLATIONS.en) : null;
+    const original = btn.textContent;
+    btn.textContent = dict ? dict.btn_sending : 'Sending...';
+    btn.disabled = true;
+ 
+    try {
+      const response = await fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      });
+ 
+      if (response.ok) {
+        btn.textContent = dict ? dict.btn_sent : 'Message sent ✓';
+        setTimeout(() => {
+          btn.textContent = original;
+          btn.disabled = false;
+          form.reset();
+        }, 2200);
+      } else {
+        throw new Error('Submission failed');
+      }
+    } catch (err) {
+      btn.textContent = 'Something went wrong — try again';
+      btn.disabled = false;
+      setTimeout(() => { btn.textContent = original; }, 2500);
+    }
+  });
+})();
+
 
 // ---------- Project filter (projects page) ----------
 (function(){
