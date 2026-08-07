@@ -118,7 +118,6 @@ img {
 	align-items: center;
 	gap: 10px;
 	margin: 0 0 14px;
-  margin-top: 300px;
 }
 
 .eyebrow2 {
@@ -132,7 +131,7 @@ img {
 	margin: 0 0 14px;
   position: relative;
   left: -400px;
-  margin-top: 200px;
+  margin-top: 80px;
   
 }
 
@@ -223,6 +222,26 @@ p.lead {
 	font-size: 1.15rem;
 	color: var(--text-dim);
 	max-width: 560px;
+}
+.skills-grid {
+  display: flex;
+  flex-direction: row; 
+  gap: 54px;           
+  max-width: 640px;   
+
+}
+
+.skills-grid2 {
+  display: flex;
+  flex-direction: row; 
+  gap: 54px;           
+  max-width: 640px;   
+  margin-top: 20;
+  
+}
+
+.skills-grid .lead .skills-grid2{
+  margin: 0; 
 }
 
 /* ============================================
