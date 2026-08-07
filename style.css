@@ -98,16 +98,15 @@ img {
 .wrap {
 	max-width: 1140px;
 	margin: 0 auto;
-  margin-top: 30px;
+	margin-top: 30px;
 	padding: 0 32px;
 }
-
 
 .wrap2 {
 	max-width: 1140px;
 	margin: 0 auto;
-  margin-top: 150px;
-	padding: 0 32px ;
+	margin-top: 150px;
+	padding: 0 32px;
 }
 
 .eyebrow {
@@ -119,15 +118,76 @@ img {
 	align-items: center;
 	gap: 10px;
 	margin: 0 0 14px;
+  margin-top: 300px;
 }
-.eyebrow::before {
+
+.eyebrow2 {
+	font-family: var(--font-mono);
+	font-size: 13px;
+	letter-spacing: 0.08em;
+	color: var(--cyan);
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 0 0 14px;
+  position: relative;
+  left: -400px;
+  margin-top: 200px;
+  
+}
+
+.eyebrow3 {
+	font-family: var(--font-mono);
+	font-size: 13px;
+	letter-spacing: 0.08em;
+	color: var(--cyan);
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top:70px ;
+  
+}
+
+.eyebrow::before, .eyebrow2::before, .eyebrow3::before {
 	content: "";
 	width: 8px;
 	height: 8px;
 	border-radius: 50%;
 	background: var(--gradient-main);
 	box-shadow: 0 0 12px var(--pink);
+  
 }
+
+
+.language-item {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  align-items: center;
+  left: -400px;
+}
+
+/* Dots spacing container */
+.dots-container {
+  display: flex;
+  gap: 8px; /* Space between dots */
+}
+
+/* Base dot style (Empty/Inactive) */
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #3c2525; /* Light gray for empty dots */
+  display: inline-block;
+}
+
+/* Active dot style (Filled) */
+.dot.active {
+background: var(--gradient-main);
+box-shadow: 0 0 12px var(--pink);
+}
+
 
 h1,
 h2,
