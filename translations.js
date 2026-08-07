@@ -1,7 +1,7 @@
 const TRANSLATIONS = {
   en: {
     nav_home: "Home", nav_about: "About", nav_projects: "Projects", nav_contact: "Contact",
-    hero_eyebrow: "AVAILABLE FOR FREELANCE",
+    hero_eyebrow: "AVAILABLE FOR REMOTE JOB",
     hero_title_1: "I build", hero_title_2: "websites", hero_title_3: "that feel alive.",
     hero_lead: "I'm a passionate multiplatform development student with big ambitions in web development.",
     btn_view_projects: "View Projects →", btn_get_in_touch: "Get in Touch",
@@ -47,7 +47,7 @@ const TRANSLATIONS = {
 
   es: {
     nav_home: "Inicio", nav_about: "Sobre mí", nav_projects: "Proyectos", nav_contact: "Contacto",
-    hero_eyebrow: "DISPONIBLE PARA FREELANCE",
+    hero_eyebrow: "DISPONIBLE PARA TRABAJO REMOTO",
     hero_title_1: "Construyo", hero_title_2: "paginas web", hero_title_3: "que se sienten vivas.",
     hero_lead: "Soy una estudiante apasionada de desarrollo multiplataforma con grandes ambiciones en el desarrollo web.",
     btn_view_projects: "Ver Proyectos →", btn_get_in_touch: "Contactar",
@@ -93,7 +93,7 @@ const TRANSLATIONS = {
 
   fr: {
     nav_home: "Accueil", nav_about: "À propos", nav_projects: "projets", nav_contact: "Contact",
-    hero_eyebrow: "DISPONIBLE EN FREELANCE",
+    hero_eyebrow: "DISPONIBLE EN REMOTE JOB",
     hero_title_1: "Je construis des", hero_title_2: "pages web", hero_title_3: "qui semblent vivantes.",
     hero_lead: "Je suis une étudiante passionnée en développement multiplateforme, avec de grandes ambitions dans le développement web.",
     btn_view_projects: "Voir les Projets →", btn_get_in_touch: "Me Contacter",
@@ -139,7 +139,7 @@ const TRANSLATIONS = {
 
   it: {
     nav_home: "Home", nav_about: "Chi sono", nav_projects: "Progetti", nav_contact: "Contatti",
-    hero_eyebrow: "DISPONIBILE PER FREELANCE",
+    hero_eyebrow: "DISPONIBILE PER REMOTE JOB",
     hero_title_1: "Costruisco", hero_title_2: "pagine web", hero_title_3: "che sembrano vive.",
     hero_lead: "Sono una studentessa appassionata di sviluppo multipiattaforma con grandi ambizioni nello sviluppo web.",
     btn_view_projects: "Vedi i Progetti →", btn_get_in_touch: "Contattami",
@@ -185,7 +185,7 @@ const TRANSLATIONS = {
 
   ru: {
     nav_home: "Главная", nav_about: "Обо мне", nav_projects: "Проекты", nav_contact: "Контакты",
-    hero_eyebrow: "ДОСТУПНА ДЛЯ ФРИЛАНСА",
+    hero_eyebrow: "ДОСТУПНА ДЛЯ REMOTE JOB",
     hero_title_1: "Я создаю", hero_title_2: "веб-страницы", hero_title_3: "которые кажутся живыми.",
     hero_lead: "Я увлечённая студентка, изучающая кроссплатформенную разработку, с большими амбициями в веб-разработке.",
     btn_view_projects: "Смотреть Проекты →", btn_get_in_touch: "Связаться",
@@ -232,7 +232,7 @@ const TRANSLATIONS = {
 
   ja: {
     nav_home: "ホーム", nav_about: "プロフィール", nav_projects: "プロジェクト", nav_contact: "お問い合わせ",
-    hero_eyebrow: "フリーランス受付中",
+    hero_eyebrow: "リモートワーク可",
     hero_title_1: "生きているような", hero_title_2: "ウェブページ", hero_title_3: "を作っています。",
     hero_lead: "私はマルチプラットフォーム開発を学ぶ学生で、Web開発に大きな夢を持っています。",
     btn_view_projects: "プロジェクトを見る →", btn_get_in_touch: "お問い合わせ",
@@ -278,7 +278,7 @@ const TRANSLATIONS = {
 
   ko: {
     nav_home: "홈", nav_about: "소개", nav_projects: "프로젝트", nav_contact: "연락처",
-    hero_eyebrow: "프리랜스 가능",
+    hero_eyebrow: "원격 근무 가능",
     hero_title_1: "살아있는 느낌의", hero_title_2: "웹 페이지", hero_title_3: "를 만듭니다.",
     hero_lead: "저는 웹 개발에 큰 포부를 가진, 멀티플랫폼 개발을 공부하는 열정적인 학생입니다.",
     btn_view_projects: "프로젝트 보기 →", btn_get_in_touch: "연락하기",
@@ -323,7 +323,7 @@ const TRANSLATIONS = {
   },
     zh: {
     nav_home: "首页", nav_about: "关于我", nav_projects: "项目", nav_contact: "联系方式",
-    hero_eyebrow: "接受自由职业项目",
+    hero_eyebrow: "接受遠距工作",
     hero_title_1: "我构建", hero_title_2: "網頁", hero_title_3: "让它们充满生命力。",
     hero_lead: "我是一名热爱多平台开发的学生，对网页开发抱有远大的志向。",
     btn_view_projects: "查看项目 →", btn_get_in_touch: "联系我",

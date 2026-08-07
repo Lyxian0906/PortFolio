@@ -1,227 +1,297 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Portfolio Lyx</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Portfolio Lyx</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="blobs">
+			<div class="blob blob-1"></div>
+			<div class="blob blob-2"></div>
+			<div class="blob blob-3"></div>
+		</div>
+		<div class="cursor-glow"></div>
 
-<div class="blobs">
-  <div class="blob blob-1"></div>
-  <div class="blob blob-2"></div>
-  <div class="blob blob-3"></div>
-</div>
-<div class="cursor-glow"></div>
+		<header class="site-nav">
+			<div class="nav-inner">
+				<a href="index.html" class="logo">lyx<span>.dev</span></a>
+				<nav class="nav-links">
+					<a href="index.html" data-i18n="nav_home">Home</a>
+					<a href="about.html" data-i18n="nav_about">About</a>
+					<a href="projects.html" data-i18n="nav_projects">Projects</a>
+					<a href="contact.html" data-i18n="nav_contact">Contact</a>
+				</nav>
+				<button class="nav-toggle" aria-label="Toggle menu">☰</button>
+			</div>
+		</header>
 
-<header class="site-nav">
-  <div class="nav-inner">
-    <a href="index.html" class="logo">lyx<span>.dev</span></a>
-    <nav class="nav-links">
-      <a href="index.html" data-i18n="nav_home">Home</a>
-      <a href="about.html" data-i18n="nav_about">About</a>
-      <a href="projects.html" data-i18n="nav_projects">Projects</a>
-      <a href="contact.html" data-i18n="nav_contact">Contact</a>
-    </nav>
-    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
-  </div>
-</header>
+		<main>
+			<section class="hero wrap">
+				<div>
+					<p class="eyebrow" data-i18n="hero_eyebrow">
+						AVAILABLE FOR REMOTE JOB
+					</p>
+					<h1 style="font-size: clamp(2.4rem, 5vw, 3.6rem); line-height: 1.1">
+						<span data-i18n="hero_title_1">I build</span>
+						<span class="gradient-text" data-i18n="hero_title_2">websites</span
+						><br />
+						<span data-i18n="hero_title_3">that feel alive.</span>
+					</h1>
 
-<main>
+					<p class="lead" data-i18n="hero_lead">
+						I'm a passionate multiplatform development student with big
+						ambitions in web development.
+					</p>
 
-  <section class="hero wrap">
-    <div>
-      <p class="eyebrow" data-i18n="hero_eyebrow">AVAILABLE FOR FREELANCE</p>
-      <h1 style="font-size: clamp(2.4rem, 5vw, 3.6rem); line-height:1.1;">
-        <span data-i18n="hero_title_1">I build</span>
-        <span class="gradient-text" data-i18n="hero_title_2">websites</span><br>
-        <span data-i18n="hero_title_3">that feel alive.</span>
-      </h1>
+					<div class="hero-actions">
+						<a
+							href="projects.html"
+							class="btn btn-primary"
+							data-i18n="btn_view_projects"
+							>View Projects →</a
+						>
+						<a
+							href="contact.html"
+							class="btn btn-ghost"
+							data-i18n="btn_get_in_touch"
+							>Get in Touch</a
+						>
+					</div>
 
-      <p class="lead" data-i18n="hero_lead">
-        I'm a passionate multiplatform development student with big ambitions in web development.
-      </p>
+					<div class="hero-stats">
+						<div>
+							<strong>5+</strong
+							><span data-i18n="stat_years">YEARS OF CODING</span>
+						</div>
+						<div>
+							<strong>20+</strong
+							><span data-i18n="stat_projects">PROJECTS COMPLETED</span>
+						</div>
+						<div>
+							<strong>Way too many</strong
+							><span data-i18n="stat_clients">CUPS OF COFFEE</span>
+						</div>
+					</div>
+				</div>
 
-      <div class="hero-actions">
-        <a href="projects.html" class="btn btn-primary" data-i18n="btn_view_projects">View Projects →</a>
-        <a href="contact.html" class="btn btn-ghost" data-i18n="btn_get_in_touch">Get in Touch</a>
-      </div>
+				<div class="terminal">
+					<div class="terminal-bar">
+						<span class="dot dot-1"></span>
+						<span class="dot dot-2"></span>
+						<span class="dot dot-3"></span>
+						<span class="terminal-title">~/lyx/whoami.js</span>
+					</div>
+					<div class="terminal-body" id="terminal-lines"></div>
+				</div>
+			</section>
 
-      <div class="hero-stats">
-        <div><strong>5+</strong><span data-i18n="stat_years">YEARS OF CODING</span></div>
-        <div><strong>20+</strong><span data-i18n="stat_projects">PROJECTS COMPLETED</span></div>
-        <div><strong>Way too many</strong><span data-i18n="stat_clients">CUPS OF COFFEE</span></div>
-      </div>
-    </div>
+			<div class="marquee">
+				<div class="marquee-track">
+					<span
+						><b>JavaScript</b> • <b>Java</b> • <b>Python</b> • <b>Node.js</b> •
+						<b>SQL Server</b> • <b>C#</b> • <b>Docker</b> • <b>AWS</b> •<b
+							>AI</b
+						></span
+					>
+					<span
+						><b>JavaScript</b> • <b>Java</b> • <b>Python</b> • <b>Node.js</b> •
+						<b>SQL Server</b> • <b>C#</b> • <b>Docker</b> • <b>AWS</b> •<b
+							>AI</b
+						></span
+					>
+				</div>
+			</div>
 
-    <div class="terminal">
-      <div class="terminal-bar">
-        <span class="dot dot-1"></span>
-        <span class="dot dot-2"></span>
-        <span class="dot dot-3"></span>
-        <span class="terminal-title">~/lyx/whoami.js</span>
-      </div>
-      <div class="terminal-body" id="terminal-lines"></div>
-    </div>
-  </section>
+			<section class="wrap">
+				<div class="section-head reveal">
+					<p class="eyebrow" data-i18n="featured_eyebrow">FEATURED WORK</p>
+					<h2 style="font-size: 2rem" data-i18n="featured_title">
+						A few projects I've worked on
+					</h2>
+				</div>
 
-  <div class="marquee">
-    <div class="marquee-track">
-      <span><b>JavaScript</b> • <b>Java</b> • <b>Python</b> • <b>Node.js</b> • <b>SQL Server</b> • <b>C#</b> • <b>Docker</b> • <b>AWS</b> •<b>AI</b></span>
-      <span><b>JavaScript</b> • <b>Java</b> • <b>Python</b> • <b>Node.js</b> • <b>SQL Server</b> • <b>C#</b> • <b>Docker</b> • <b>AWS</b> •<b>AI</b></span>
-    </div>
-  </div>
+				<div class="grid grid-3">
+					<div class="card card-glow reveal">
+						<div class="icon-tile">📖</div>
+						<h3 data-i18n="proj1_title">Book Library</h3>
 
-  <section class="wrap">
-    <div class="section-head reveal">
-      <p class="eyebrow" data-i18n="featured_eyebrow">FEATURED WORK</p>
-      <h2 style="font-size: 2rem;" data-i18n="featured_title">A few projects I've worked on</h2>
-    </div>
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="proj1_desc">
+								A full-stack web application for managing a library's authors,
+								books, and users, built with Java and Spring Boot. It features
+								secure authentication with hashed passwords and brute-force
+								login protection, a JPA-backed data layer connected to SQL
+								Server, and a custom dark-mode UI with light and dark theme
+								support.
+							</span>
+						</p>
 
-    <div class="grid grid-3">
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Java 21</span>
+							<span class="tag">Spring Boot</span>
+							<span class="tag">Spring Data JPA</span>
+							<span class="tag">Microsoft SQL Server</span>
+							<span class="tag">Gradle</span>
+						</div>
+					</div>
 
-      <div class="card card-glow reveal">
-        <div class="icon-tile">📖</div>
-        <h3 data-i18n="proj1_title">Book Library</h3>
+					<div class="card card-glow reveal">
+						<div class="icon-tile">🌳</div>
+						<h3 data-i18n="proj2_title">Memory tree</h3>
 
-        <p style="color:var(--text-dim); font-size:0.95rem;">
-          <span data-i18n="proj1_desc">
-            A full-stack web application for managing a library's authors, books, and users, built with Java and Spring Boot. It features secure authentication with hashed passwords and brute-force login protection, a JPA-backed data layer connected to SQL Server, and a custom dark-mode UI with light and dark theme support.
-          </span>
-        </p>
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="proj2_desc">
+								An unfinished project. It was designed as a website where users
+								could record their emotions on a "tree" and explore other
+								people's trees.
+							</span>
+						</p>
 
-        <div style="margin-top:16px; display:flex; gap:8px; flex-wrap:wrap;">
-          <span class="tag">Java 21</span>
-          <span class="tag">Spring Boot</span>
-          <span class="tag">Spring Data JPA</span>
-          <span class="tag">Microsoft SQL Server</span>
-          <span class="tag">Gradle</span>
-        </div>
-      </div>
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Firebase</span>
+							<span class="tag">JavaScript</span>
+							<span class="tag">HTML</span>
+							<span class="tag">CSS</span>
+						</div>
+					</div>
 
-      <div class="card card-glow reveal">
-        <div class="icon-tile">🌳</div>
-        <h3 data-i18n="proj2_title">Memory tree</h3>
+					<div class="card card-glow reveal">
+						<div class="icon-tile">🎧</div>
+						<h3 data-i18n="proj3_title">Small Web Music Player</h3>
 
-        <p style="color:var(--text-dim); font-size:0.95rem;">
-          <span data-i18n="proj2_desc">
-            An unfinished project. It was designed as a website where users could record their emotions on a "tree" and explore other people's trees.
-          </span>
-        </p>
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="proj3_desc">
+								There's not much to say about this one. It's a small project I
+								wanted to build, and it was one of the first websites I created
+								using JavaScript.
+							</span>
+						</p>
 
-        <div style="margin-top:16px; display:flex; gap:8px; flex-wrap:wrap;">
-          <span class="tag">Firebase</span>
-          <span class="tag">JavaScript</span>
-          <span class="tag">HTML</span>
-          <span class="tag">CSS</span>
-        </div>
-      </div>
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">CSS</span>
+							<span class="tag">HTML</span>
+							<span class="tag">JavaScript</span>
+						</div>
+					</div>
+				</div>
 
-      <div class="card card-glow reveal">
-        <div class="icon-tile">🎧</div>
-        <h3 data-i18n="proj3_title">Small Web Music Player</h3>
+				<div style="text-align: center; margin-top: 44px">
+					<a href="projects.html" class="btn btn-ghost" data-i18n="btn_see_all"
+						>See all projects →</a
+					>
+				</div>
+			</section>
 
-        <p style="color:var(--text-dim); font-size:0.95rem;">
-          <span data-i18n="proj3_desc">
-            There's not much to say about this one. It's a small project I wanted to build, and it was one of the first websites I created using JavaScript.
-          </span>
-        </p>
+			<section class="wrap">
+				<div class="section-head reveal">
+					<p class="eyebrow" data-i18n="how_eyebrow">HOW I WORK</p>
+					<h2 style="font-size: 2rem" data-i18n="how_title">
+						With lots of coffee and not enough sleep—but just enough to survive.
+					</h2>
+				</div>
 
-        <div style="margin-top:16px; display:flex; gap:8px; flex-wrap:wrap;">
-          <span class="tag">CSS</span>
-          <span class="tag">HTML</span>
-          <span class="tag">JavaScript</span>
-        </div>
-      </div>
+				<div class="grid grid-3">
+					<div class="card reveal">
+						<div class="icon-tile">🧭</div>
+						<h3 data-i18n="how1_title">Time</h3>
 
-    </div>
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="how1_desc">
+								I carefully manage my time whenever I work on a project. Time is
+								very important to me, so I plan ahead and take my deadlines
+								seriously.
+							</span>
+						</p>
+					</div>
 
-    <div style="text-align:center; margin-top:44px;">
-      <a href="projects.html" class="btn btn-ghost" data-i18n="btn_see_all">See all projects →</a>
-    </div>
-  </section>
+					<div class="card reveal">
+						<div class="icon-tile">🛠️</div>
+						<h3 data-i18n="how2_title">Build it right</h3>
 
-  <section class="wrap">
-    <div class="section-head reveal">
-      <p class="eyebrow" data-i18n="how_eyebrow">HOW I WORK</p>
-      <h2 style="font-size: 2rem;" data-i18n="how_title">
-        With lots of coffee and not enough sleep—but just enough to survive.
-      </h2>
-    </div>
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="how2_desc">
+								I write typed, tested, and documented code (I promise I really
+								try!) so that the next developer can actually understand it...
+								most of the time.
+							</span>
+						</p>
+					</div>
 
-    <div class="grid grid-3">
+					<div class="card reveal">
+						<div class="icon-tile">🚀</div>
+						<h3 data-i18n="how3_title">Release</h3>
 
-      <div class="card reveal">
-        <div class="icon-tile">🧭</div>
-        <h3 data-i18n="how1_title">Time</h3>
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="how3_desc">
+								I usually start with small releases so people can test them
+								beforehand. I really appreciate constructive criticism.
+							</span>
+						</p>
+					</div>
+				</div>
+			</section>
 
-        <p style="color:var(--text-dim); font-size:0.95rem;">
-          <span data-i18n="how1_desc">
-            I carefully manage my time whenever I work on a project. Time is very important to me, so I plan ahead and take my deadlines seriously.
-          </span>
-        </p>
-      </div>
+			<section class="wrap">
+				<div
+					class="card reveal"
+					style="
+						text-align: center;
+						padding: 56px 32px;
+						background: linear-gradient(
+							180deg,
+							var(--surface),
+							var(--surface-2)
+						);
+					"
+				>
+					<h2 style="font-size: 1.9rem" data-i18n="cta_title">
+						Got a project in mind? (Not ready)
+					</h2>
 
-      <div class="card reveal">
-        <div class="icon-tile">🛠️</div>
-        <h3 data-i18n="how2_title">Build it right</h3>
+					<p class="lead" style="margin: 0 auto 28px" data-i18n="cta_lead">
+						Let's turn it into something people actually enjoy using.
+					</p>
 
-        <p style="color:var(--text-dim); font-size:0.95rem;">
-          <span data-i18n="how2_desc">
-            I write typed, tested, and documented code (I promise I really try!) so that the next developer can actually understand it... most of the time.
-          </span>
-        </p>
-      </div>
+					<a
+						href="contact.html"
+						class="btn btn-primary"
+						data-i18n="btn_start_convo"
+					>
+						Start a conversation →
+					</a>
+				</div>
+			</section>
+		</main>
 
-      <div class="card reveal">
-        <div class="icon-tile">🚀</div>
-        <h3 data-i18n="how3_title">Release</h3>
+		<footer>
+			<div class="wrap footer-inner">
+				<div class="footer-note" data-i18n="footer_note">
+					© 2026 Lyxian. Built with too much coffee and not enough sleep.
+				</div>
 
-        <p style="color:var(--text-dim); font-size:0.95rem;">
-          <span data-i18n="how3_desc">
-            I usually start with small releases so people can test them beforehand. I really appreciate constructive criticism.
-          </span>
-        </p>
-      </div>
+				<div class="footer-links">
+					<a href="https://github.com/Lyxian0906">GitHub</a>
+					<a href="https://www.linkedin.com/in/alba-manzano-lópez">LinkedIn</a>
+					<a href="">Instagram (coming soon)</a>
+				</div>
+			</div>
+		</footer>
 
-    </div>
-  </section>
-
-  <section class="wrap">
-    <div class="card reveal" style="text-align:center; padding:56px 32px; background: linear-gradient(180deg, var(--surface), var(--surface-2));">
-      <h2 style="font-size: 1.9rem;" data-i18n="cta_title">Got a project in mind? (Not ready)</h2>
-
-      <p class="lead" style="margin: 0 auto 28px;" data-i18n="cta_lead">
-        Let's turn it into something people actually enjoy using.
-      </p>
-
-      <a href="contact.html" class="btn btn-primary" data-i18n="btn_start_convo">
-        Start a conversation →
-      </a>
-    </div>
-  </section>
-
-</main>
-
-<footer>
-  <div class="wrap footer-inner">
-    <div class="footer-note" data-i18n="footer_note">
-      © 2026 Lyxian. Built with too much coffee and not enough sleep.
-    </div>
-
-    <div class="footer-links">
-      <a href="https://github.com/Lyxian0906">GitHub</a>
-      <a href="https://www.linkedin.com/in/alba-manzano-lópez">LinkedIn</a>
-      <a href="">Instagram (coming soon)</a>
-    </div>
-  </div>
-</footer>
-
-<script src="translations.js"></script>
-<script src="i18n.js"></script>
-<script src="script.js"></script>
-</body>
+		<script src="translations.js"></script>
+		<script src="i18n.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>

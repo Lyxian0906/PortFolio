@@ -1,10 +1,10 @@
 // ---------- Cursor ambient glow ----------
-(function(){
+(function () {
   const glow = document.querySelector('.cursor-glow');
-  if(!glow) return;
+  if (!glow) return;
   let raf = null;
   window.addEventListener('mousemove', (e) => {
-    if(raf) return;
+    if (raf) return;
     raf = requestAnimationFrame(() => {
       glow.style.left = e.clientX + 'px';
       glow.style.top = e.clientY + 'px';
@@ -14,31 +14,31 @@
 })();
 
 // ---------- Mobile nav toggle ----------
-(function(){
+(function () {
   const toggle = document.querySelector('.nav-toggle');
   const links = document.querySelector('.nav-links');
-  if(!toggle || !links) return;
+  if (!toggle || !links) return;
   toggle.addEventListener('click', () => {
     links.classList.toggle('open');
   });
 })();
 
 // ---------- Active nav link ----------
-(function(){
+(function () {
   const current = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-links a').forEach(a => {
     const href = a.getAttribute('href');
-    if(href === current){ a.classList.add('active'); }
+    if (href === current) { a.classList.add('active'); }
   });
 })();
 
 // ---------- Scroll reveal ----------
-(function(){
+(function () {
   const items = document.querySelectorAll('.reveal');
-  if(!items.length) return;
+  if (!items.length) return;
   const obs = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      if(entry.isIntersecting){
+      if (entry.isIntersecting) {
         entry.target.classList.add('in');
         obs.unobserve(entry.target);
       }
@@ -48,24 +48,24 @@
 })();
 
 // ---------- Terminal typing effect (home hero) ----------
-(function(){
+(function () {
   const el = document.getElementById('terminal-lines');
-  if(!el) return;
+  if (!el) return;
 
   const lines = [
-    [ '<span class="tk-com">// initializing developer...</span>' ],
-    [ '<span class="tk-key">const</span> <span class="tk-var">dev</span> = {' ],
-    [ '&nbsp;&nbsp;name: <span class="tk-str">"Lyxian"</span>,' ],
-    [ '&nbsp;&nbsp;role: <span class="tk-str">"Multiplatform development"</span>,' ],
-    [ '&nbsp;&nbsp;stack: [<span class="tk-str">"JavaScript"</span>, <span class="tk-str">"SQL"</span>, <span class="tk-str">"Java"</span>],' ],
-    [ '&nbsp;&nbsp;loves: <span class="tk-str">"Loves coffee"</span>' ],
-    [ '};' ],
-    [ '<span class="tk-fn">deploy</span>(dev); <span class="tk-com">// not being able to sleep properly since 2022</span>' ],
+    ['<span class="tk-com">// initializing developer...</span>'],
+    ['<span class="tk-key">const</span> <span class="tk-var">dev</span> = {'],
+    ['&nbsp;&nbsp;name: <span class="tk-str">"Lyxian"</span>,'],
+    ['&nbsp;&nbsp;role: <span class="tk-str">"Multiplatform development"</span>,'],
+    ['&nbsp;&nbsp;stack: [<span class="tk-str">"JavaScript"</span>, <span class="tk-str">"SQL"</span>, <span class="tk-str">"Java"</span>],'],
+    ['&nbsp;&nbsp;loves: <span class="tk-str">"Loves coffee"</span>'],
+    ['};'],
+    ['<span class="tk-fn">deploy</span>(dev); <span class="tk-com">// not being able to sleep properly since 2022</span>'],
   ];
 
   let i = 0;
-  function typeLine(){
-    if(i >= lines.length){
+  function typeLine() {
+    if (i >= lines.length) {
       const caret = document.createElement('span');
       caret.className = 'caret';
       el.appendChild(caret);
@@ -107,25 +107,25 @@
 
 
 //------------ Contact for real------------------------
-(function(){
+(function () {
   const form = document.getElementById('contact-form');
-  if(!form) return;
+  if (!form) return;
   const btn = form.querySelector('button[type="submit"]');
- 
+
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     const dict = (typeof TRANSLATIONS !== 'undefined') ? (TRANSLATIONS[getCurrentLang()] || TRANSLATIONS.en) : null;
     const original = btn.textContent;
     btn.textContent = dict ? dict.btn_sending : 'Sending...';
     btn.disabled = true;
- 
+
     try {
       const response = await fetch(form.action, {
         method: 'POST',
         body: new FormData(form),
         headers: { 'Accept': 'application/json' }
       });
- 
+
       if (response.ok) {
         btn.textContent = dict ? dict.btn_sent : 'Message sent ✓';
         setTimeout(() => {
@@ -146,10 +146,10 @@
 
 
 // ---------- Project filter (projects page) ----------
-(function(){
+(function () {
   const filters = document.querySelectorAll('.filter-btn');
   const cards = document.querySelectorAll('.project-card');
-  if(!filters.length) return;
+  if (!filters.length) return;
   filters.forEach(btn => {
     btn.addEventListener('click', () => {
       filters.forEach(b => b.classList.remove('active-filter'));
