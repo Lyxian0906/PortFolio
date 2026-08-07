@@ -34,7 +34,7 @@ const TRANSLATIONS = {
     p2_title: "Memory Tree", p2_desc: "A personal website where users can capture memories and emotions by placing glowing orbs on a magical tree. Built with Firebase Authentication and Firestore, allowing each user to create and manage their own unique memory tree.",
     p3_title: "Web Music Player", p3_desc: "One of my first JavaScript projects, featuring a custom web-based music player with playlists, playback controls, and a clean, responsive interface. It helped me strengthen my JavaScript skills and understand DOM manipulation.",
     p5_title: "Air Quality Analysis Dashboard", p5_desc: "A data analysis project focused on monitoring and visualizing air quality information. Built using SQL, ETL processes, and Power BI to transform raw environmental data into interactive dashboards and meaningful insights.",
-    p6_title: "Camera Management System", p6_desc: "A desktop application developed in Java for managing camera equipment and inventory. The project allows users to organize products, handle data efficiently, and apply object-oriented programming principles through a structured and user-friendly interface.",
+    p6_title: "Camera Management System", p6_desc: "A desktop application developed in Java still under development, to make it do things with hand motions.",
 
     contact_eyebrow: "LET'S TALK", contact_title_1: "Have a project?", contact_title_2: "Let's build it.",
     contact_lead: "Fill out the form or reach me directly — I usually reply within a day. (Not ready)",
@@ -80,7 +80,7 @@ const TRANSLATIONS = {
     p2_title: "Memory Tree", p2_desc: "Un sitio web personal donde los usuarios pueden capturar recuerdos y emociones colocando orbes brillantes en un árbol mágico. Construido con Firebase Authentication y Firestore, permite que cada usuario cree y gestione su propio árbol de recuerdos.",
     p3_title: "Web Music Player", p3_desc: "Uno de mis primeros proyectos en JavaScript, con un reproductor de música web personalizado con listas de reproducción, controles de reproducción y una interfaz limpia y responsive. Me ayudó a reforzar mis habilidades en JavaScript y a entender la manipulación del DOM.",
     p5_title: "Air Quality Analysis Dashboard", p5_desc: "Un proyecto de análisis de datos centrado en monitorizar y visualizar información sobre la calidad del aire. Construido con SQL, procesos ETL y Power BI para transformar datos ambientales en bruto en paneles interactivos e información relevante.",
-    p6_title: "Camera Management System", p6_desc: "Una aplicación de escritorio desarrollada en Java para gestionar equipos e inventario de cámaras. El proyecto permite a los usuarios organizar productos, gestionar datos de forma eficiente y aplicar principios de programación orientada a objetos a través de una interfaz estructurada y fácil de usar.",
+    p6_title: "Camera Management System", p6_desc: "Una aplicación de escritorio desarrollada en Java, aún en desarrollo, para que realice acciones mediante movimientos de las manos.",
 
     contact_eyebrow: "HABLEMOS", contact_title_1: "¿Tienes un proyecto?", contact_title_2: "Construyámoslo.",
     contact_lead: "Completa el formulario o contáctame directamente — normalmente respondo en un día. (No disponible por ahora)",
@@ -126,7 +126,7 @@ const TRANSLATIONS = {
     p2_title: "Memory Tree", p2_desc: "Un site web personnel où les utilisateurs peuvent capturer des souvenirs et des émotions en plaçant des orbes lumineux sur un arbre magique. Construit avec Firebase Authentication et Firestore, il permet à chaque utilisateur de créer et gérer son propre arbre de souvenirs.",
     p3_title: "Web Music Player", p3_desc: "L'un de mes premiers projets JavaScript, avec un lecteur de musique web personnalisé proposant des playlists, des contrôles de lecture et une interface propre et responsive. Il m'a aidé à renforcer mes compétences en JavaScript et à comprendre la manipulation du DOM.",
     p5_title: "Air Quality Analysis Dashboard", p5_desc: "Un projet d'analyse de données axé sur la surveillance et la visualisation d'informations sur la qualité de l'air. Construit avec SQL, des processus ETL et Power BI pour transformer des données environnementales brutes en tableaux de bord interactifs et en informations pertinentes.",
-    p6_title: "Camera Management System", p6_desc: "Une application de bureau développée en Java pour gérer du matériel et un inventaire de caméras. Le projet permet aux utilisateurs d'organiser des produits, de traiter les données efficacement et d'appliquer les principes de la programmation orientée objet à travers une interface structurée et conviviale.",
+    p6_title: "Camera Management System", p6_desc: "Une application de bureau développée en Java, encore en cours de développement, permettant d'effectuer des actions par des mouvements de la main.",
 
     contact_eyebrow: "PARLONS-EN", contact_title_1: "Un projet ?", contact_title_2: "Construisons-le.",
     contact_lead: "Remplissez le formulaire ou contactez-moi directement — je réponds généralement en une journée. (Pas encore prêt)",
@@ -172,7 +172,7 @@ const TRANSLATIONS = {
     p2_title: "Memory Tree", p2_desc: "Un sito web personale dove gli utenti possono catturare ricordi ed emozioni posizionando sfere luminose su un albero magico. Costruito con Firebase Authentication e Firestore, permette a ogni utente di creare e gestire il proprio albero dei ricordi.",
     p3_title: "Web Music Player", p3_desc: "Uno dei miei primi progetti in JavaScript, con un lettore musicale web personalizzato con playlist, controlli di riproduzione e un'interfaccia pulita e responsive. Mi ha aiutato a rafforzare le mie competenze in JavaScript e a capire la manipolazione del DOM.",
     p5_title: "Air Quality Analysis Dashboard", p5_desc: "Un progetto di analisi dati incentrato sul monitoraggio e la visualizzazione delle informazioni sulla qualità dell'aria. Costruito con SQL, processi ETL e Power BI per trasformare dati ambientali grezzi in dashboard interattive e informazioni significative.",
-    p6_title: "Camera Management System", p6_desc: "Un'applicazione desktop sviluppata in Java per gestire attrezzature e inventario di fotocamere. Il progetto permette agli utenti di organizzare i prodotti, gestire i dati in modo efficiente e applicare i principi della programmazione orientata agli oggetti attraverso un'interfaccia strutturata e facile da usare.",
+    p6_title: "Camera Management System", p6_desc: "Une application de bureau développée en Java, encore en cours de développement, permettant d'effectuer des actions par des mouvements de la main.",
 
     contact_eyebrow: "PARLIAMONE", contact_title_1: "Hai un progetto?", contact_title_2: "Costruiamolo.",
     contact_lead: "Compila il modulo o contattami direttamente — di solito rispondo entro un giorno. (Non ancora pronta)",
@@ -218,7 +218,7 @@ const TRANSLATIONS = {
     p2_title: "Memory Tree", p2_desc: "Личный сайт, где пользователи могут запечатлевать воспоминания и эмоции, размещая светящиеся шары на волшебном дереве. Построен на Firebase Authentication и Firestore, позволяя каждому пользователю создавать и вести своё уникальное дерево воспоминаний.",
     p3_title: "Web Music Player", p3_desc: "Один из моих первых проектов на JavaScript — собственный веб-плеер с плейлистами, элементами управления воспроизведением и чистым, адаптивным интерфейсом. Он помог мне укрепить навыки JavaScript и понять манипуляции с DOM.",
     p5_title: "Air Quality Analysis Dashboard", p5_desc: "Проект анализа данных, посвящённый мониторингу и визуализации информации о качестве воздуха. Построен с использованием SQL, ETL-процессов и Power BI для превращения сырых экологических данных в интерактивные дашборды и значимые выводы.",
-    p6_title: "Camera Management System", p6_desc: "Настольное приложение, разработанное на Java для управления камерным оборудованием и инвентарём. Проект позволяет пользователям организовывать товары, эффективно обрабатывать данные и применять принципы объектно-ориентированного программирования через структурированный и удобный интерфейс.",
+    p6_title: "Camera Management System", p6_desc: "Настольное приложение, разработанное на Java и находящееся в стадии разработки, предназначенное для выполнения действий с помощью движений рук.",
 
     contact_eyebrow: "ДАВАЙТЕ ПООБЩАЕМСЯ", contact_title_1: "Есть проект?", contact_title_2: "Давайте его реализуем.",
     contact_lead: "Заполните форму или свяжитесь со мной напрямую — обычно я отвечаю в течение дня. (Пока не готова)",
@@ -265,7 +265,7 @@ const TRANSLATIONS = {
     p2_title: "Memory Tree", p2_desc: "光る球を魔法の木に置くことで思い出や感情を記録できる個人サイト。Firebase AuthenticationとFirestoreで構築されており、各ユーザーが自分だけの思い出の木を作成・管理できる。",
     p3_title: "Web Music Player", p3_desc: "最初期のJavaScriptプロジェクトの一つで、プレイリストや再生コントロールを備えたカスタムWebベースの音楽プレイヤーとクリーンでレスポンシブなインターフェースを特徴とする。JavaScriptのスキルとDOM操作の理解を深めるのに役立った。",
     p5_title: "Air Quality Analysis Dashboard", p5_desc: "大気質情報の監視と可視化に焦点を当てたデータ分析プロジェクト。SQL、ETLプロセス、Power BIを使用し、生の環境データをインタラクティブなダッシュボードと有意義な洞察に変換する。",
-    p6_title: "Camera Management System", p6_desc: "カメラ機材と在庫を管理するためにJavaで開発されたデスクトップアプリケーション。構造化された使いやすいインターフェースを通じて、製品の整理、データの効率的な処理、オブジェクト指向プログラミングの原則の適用ができる。",
+    p6_title: "Camera Management System", p6_desc: "Javaで開発されたデスクトップアプリケーションで、手の動きで操作できるようにするための開発が現在も進行中です。",
 
     contact_eyebrow: "お話しましょう", contact_title_1: "プロジェクトがありますか？", contact_title_2: "一緒に作りましょう。",
     contact_lead: "フォームに入力するか、直接ご連絡ください — 通常1日以内に返信します。（現在準備中）",
@@ -311,7 +311,7 @@ const TRANSLATIONS = {
     p2_title: "Memory Tree", p2_desc: "빛나는 구슬을 마법의 나무에 놓아 추억과 감정을 기록할 수 있는 개인 웹사이트입니다. Firebase Authentication과 Firestore로 구축되어 각 사용자가 자신만의 추억 나무를 만들고 관리할 수 있습니다.",
     p3_title: "Web Music Player", p3_desc: "제 초기 JavaScript 프로젝트 중 하나로, 재생목록과 재생 컨트롤을 갖춘 커스텀 웹 음악 플레이어와 깔끔하고 반응형인 인터페이스를 특징으로 합니다. JavaScript 실력을 다지고 DOM 조작을 이해하는 데 도움이 되었습니다.",
     p5_title: "Air Quality Analysis Dashboard", p5_desc: "대기질 정보를 모니터링하고 시각화하는 데 초점을 맞춘 데이터 분석 프로젝트입니다. SQL, ETL 프로세스, Power BI를 사용해 원시 환경 데이터를 인터랙티브한 대시보드와 유의미한 인사이트로 변환합니다.",
-    p6_title: "Camera Management System", p6_desc: "카메라 장비와 재고를 관리하기 위해 Java로 개발된 데스크톱 애플리케이션입니다. 구조화되고 사용하기 쉬운 인터페이스를 통해 제품을 정리하고, 데이터를 효율적으로 처리하며, 객체지향 프로그래밍 원칙을 적용할 수 있습니다.",
+    p6_title: "Camera Management System", p6_desc: "자바로 개발 중인 데스크톱 애플리케이션으로, 손동작으로 여러 작업을 수행할 수 있도록 구현하는 것을 목표로 하고 있습니다.",
 
     contact_eyebrow: "이야기해봅시다", contact_title_1: "프로젝트가 있으신가요?", contact_title_2: "함께 만들어봅시다.",
     contact_lead: "양식을 작성하거나 직접 연락해 주세요 — 보통 하루 안에 답변드립니다. (아직 준비 중)",
@@ -356,7 +356,7 @@ const TRANSLATIONS = {
     p2_title: "Memory Tree", p2_desc: "一个个人网站，用户可以通过在一棵神奇的树上放置发光的球体来记录回忆和情绪。使用 Firebase Authentication 和 Firestore 构建，每位用户都可以创建和管理属于自己的独特记忆树。",
     p3_title: "Web Music Player", p3_desc: "我最早的 JavaScript 项目之一，具有自定义的网页音乐播放器，支持播放列表、播放控制，并拥有简洁、响应式的界面。它帮助我巩固了 JavaScript 技能，并理解了 DOM 操作。",
     p5_title: "Air Quality Analysis Dashboard", p5_desc: "一个专注于监测和可视化空气质量信息的数据分析项目。使用 SQL、ETL 流程和 Power BI，将原始环境数据转化为交互式仪表盘和有意义的洞察。",
-    p6_title: "Camera Management System", p6_desc: "一款使用 Java 开发的桌面应用程序，用于管理相机设备和库存。该项目让用户能够整理产品、高效处理数据，并通过结构清晰、易于使用的界面应用面向对象编程的原则。",
+    p6_title: "Camera Management System", p6_desc: "一個用 Java 開發的桌面應用程序，目前仍在開發中，目標是使其能夠透過手勢執行操作。",
  
     contact_eyebrow: "聊一聊", contact_title_1: "有项目想法吗？", contact_title_2: "让我们一起实现它。",
     contact_lead: "填写表单或直接联系我——我通常会在一天内回复。（暂未开放）",
