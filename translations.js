@@ -49,7 +49,7 @@ const TRANSLATIONS = {
     lib_gallery_note: "The app isn't deployed publicly yet, so here's a preview of what it looks like in the meantime.",
     lib_shot1_title: "Secure Login", lib_shot1_desc: "The entry point to the app, protected with hashed passwords and brute-force login protection. Once inside, the dashboard gives a quick overview of the library — total books, authors, and recent activity — before diving into the details.",
     lib_shot2_title: "Main Screen", lib_shot2_desc: "The central hub for navigating the app, with quick access to the book catalog, author records, and user management — all built around a custom interface with light and dark theme support.",
-    lib_shot3_title: "Author Management", lib_shot3_desc: "A dedicated section for creating, editing, and browsing authors. Each author record links back to the books they've written, and the forms include validation to keep the data consistent.",
+    lib_shot3_title: "Author Management", lib_shot3_desc: "A dedicated section for creating, editing, and browsing authors. Each author record links back to the books they've written, and the forms include validation to keep the data consistent. (Adding authors and editing them are same pages)",
     lib_shot4_title: "Book Catalog", lib_shot4_desc: "Where books are added, edited, and organized. Every entry connects to its author and tracks availability, making it easy to see what's on the shelves and what's checked out.",
     lib_shot5_title: "Chat", lib_shot5_desc: "A built-in messaging feature for communicating within the app — still evolving as I keep building out the library system.",
 
