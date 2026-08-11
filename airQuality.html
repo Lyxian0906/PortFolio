@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Book Library — Lyxian</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<div class="blobs">
+			<div class="blob blob-1"></div>
+			<div class="blob blob-2"></div>
+			<div class="blob blob-3"></div>
+		</div>
+
+		<div class="cursor-glow"></div>
+
+		<header class="site-nav">
+			<div class="nav-inner">
+				<a href="index.html" class="logo">lyx<span>.dev</span></a>
+
+				<nav class="nav-links">
+					<a href="index.html" data-i18n="nav_home">Home</a>
+					<a href="about.html" data-i18n="nav_about">About</a>
+					<a href="projects.html" data-i18n="nav_projects">Projects</a>
+					<a href="contact.html" data-i18n="nav_contact">Contact</a>
+				</nav>
+
+				<button class="nav-toggle" aria-label="Toggle menu">☰</button>
+			</div>
+		</header>
+
+		<main>
+			<section class="wrap" style="padding-bottom: 0">
+				<a
+					href="projects.html"
+					class="tag"
+					style="
+						display: inline-block;
+						margin-bottom: 24px;
+						text-decoration: none;
+					"
+					data-i18n="lib_back"
+					>← Back to Projects</a
+				>
+
+				<p class="eyebrow reveal" data-i18n="qua_eyebrow">PROJECT GALLERY</p>
+
+				<h1
+					class="reveal"
+					style="font-size: clamp(2rem, 4vw, 2.8rem); max-width: 680px"
+				>
+					<span data-i18n="p1_title">Air quality</span>
+				</h1>
+
+				<p class="lead reveal" style="max-width: 680px" data-i18n="p5_desc">
+					A data analysis project focused on monitoring and visualizing air
+					quality information. Built using SQL, ETL processes, and Power BI to
+					transform raw environmental data into interactive dashboards and
+					meaningful insights.
+				</p>
+
+				<div
+					style="
+						margin-top: 16px;
+						margin-bottom: 40px;
+						display: flex;
+						gap: 8px;
+						flex-wrap: wrap;
+					"
+				>
+					<span class="tag">Power BI</span>
+					<span class="tag">SQL</span>
+					<span class="tag">ETL</span>
+					<span class="tag">Data Analysis</span>
+				</div>
+			</section>
+
+			<section class="wrap" style="padding-top: 0">
+				<div class="section-head reveal">
+					<p class="eyebrow" data-i18n="qua_gallery_eyebrow">SCREENSHOTS</p>
+					<h2 style="font-size: 2rem" data-i18n="lib_gallery_title">
+						A Look Inside
+					</h2>
+					<p class="lead" style="max-width: 640px" data-i18n="qua_gallery_note">
+						The app isn't deployed publicly yet, so here's a preview of what it
+						looks like in the meantime.
+					</p>
+				</div>
+
+				<div class="grid grid-2" style="gap: 24px">
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden"
+					>
+						<img
+							src="Images/ImagesAir/Data.png"
+							alt="Book Library — login and dashboard"
+							style="
+								display: block;
+								width: 100%;
+								height: 260px;
+								object-fit: cover;
+								margin-bottom: 16px;
+							"
+						/>
+
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot1_title"
+							>
+								Data info
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot1_desc"
+							>
+								Data info
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden"
+					>
+						<img
+							src="Images/ImagesAir/ICAinfo.png"
+							alt="Air Quality - 1 Page"
+							style="
+								display: block;
+								width: 100%;
+								height: 260px;
+								object-fit: cover;
+								margin-bottom: 16px;
+							"
+						/>
+
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot1_title"
+							>
+								ICA info
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot1_desc"
+							>
+								ICA info
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden"
+					>
+						<img
+							src="Images/ImagesAir/1page.png"
+							alt="Air Quality - ICA info"
+							style="
+								display: block;
+								width: 100%;
+								height: 260px;
+								object-fit: cover;
+								margin-bottom: 16px;
+							"
+						/>
+
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot1_title"
+							>
+								Page 1 (Contamination per hour)
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot1_desc"
+							>
+								Contamination per hour
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden"
+					>
+						<img
+							src="Images/ImagesAir/2page.png"
+							alt="Air Quality - 1 Page"
+							style="
+								display: block;
+								width: 100%;
+								height: 260px;
+								object-fit: cover;
+								margin-bottom: 16px;
+							"
+						/>
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot2_title"
+							>
+								Page 2 (Average)
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot2_desc"
+							>
+								Average
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden; grid-column: 1 / -1"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								gap: 4px;
+								margin-bottom: 16px;
+							"
+						>
+							<img
+								src="Images/ImagesAir/3.1page.png"
+								alt="Air Quality - 3 Page"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+							<img
+								src="Images/ImagesAir/3page.png"
+								alt="Air Quality - 3.1 Page"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+						</div>
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot3_title"
+							>
+								Page 3 (Minimun and maximun)
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot3_desc"
+							>
+								Minimun and maximun
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden; grid-column: 1 / -1"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								gap: 4px;
+								margin-bottom: 16px;
+							"
+						>
+							<img
+								src="Images/ImagesAir/4page.png"
+								alt="Air quality - Page 4"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+							<img
+								src="Images/ImagesAir/4.1page.png"
+								alt="Air quality - Page 4.1"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+						</div>
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot4_title"
+							>
+								Page 4 (Day/ night Average)
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot4_desc"
+							>
+								Day/Night Average
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden; grid-column: 1 / -1"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								gap: 4px;
+								margin-bottom: 16px;
+							"
+						>
+							<img
+								src="Images/ImagesAir/5map.png"
+								alt="Air quality - Page 4"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+							<img
+								src="Images/ImagesAir/5.1map.png"
+								alt="Air quality - Page 4.1"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+						</div>
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot5_title"
+							>
+								Page 5 Map
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot5_desc"
+							>
+								Map
+							</p>
+						</div>
+					</figure>
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden; grid-column: 1 / -1"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								gap: 4px;
+								margin-bottom: 16px;
+							"
+						>
+							<img
+								src="Images/ImagesAir/6WV.png"
+								alt="Air quality - Page 5"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+							<img
+								src="Images/ImagesAir/6.2WV.png"
+								alt="Air quality - Page 5.1"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+						</div>
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot5_title"
+							>
+								Page 6 (Rain an wind)
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot5_desc"
+							>
+								Rain and Wind
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden; grid-column: 1 / -1"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								gap: 4px;
+								margin-bottom: 16px;
+							"
+						>
+							<img
+								src="Images/ImagesAir/7AV.png"
+								alt="Air quality - Page 5"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+							<img
+								src="Images/ImagesAir/7.1AV.png"
+								alt="Air quality - Page 5.1"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+						</div>
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot5_title"
+							>
+								Page 7 Average of contamination
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot5_desc"
+							>
+								Average of contamination
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden; grid-column: 1 / -1"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								gap: 4px;
+								margin-bottom: 16px;
+							"
+						>
+							<img
+								src="Images/ImagesAir/8ICA.png"
+								alt="Air quality - Page 5"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+							<img
+								src="Images/ImagesAir/8.2 ICA.png"
+								alt="Air quality - Page 5.1"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+						</div>
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot5_title"
+							>
+								Page 8 ICA per contamination
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot5_desc"
+							>
+								ICA per contamination
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden; grid-column: 1 / -1"
+					>
+						<div
+							style="
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								gap: 4px;
+								margin-bottom: 16px;
+							"
+						>
+							<img
+								src="Images/ImagesAir/9ICAevolution.png"
+								alt="Air quality - Page 5"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+							<img
+								src="Images/ImagesAir/9.1ICAevol.png"
+								alt="Air quality - Page 5.1"
+								style="
+									display: block;
+									width: 100%;
+									height: 380px;
+									object-fit: cover;
+								"
+							/>
+						</div>
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="qua_shot5_title"
+							>
+								Page 9 ICA evolution
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="qua_shot5_desc"
+							>
+								ICA evolution
+							</p>
+						</div>
+					</figure>
+
+
+
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="wrap footer-inner">
+				<div class="footer-note" data-i18n="footer_note">
+					© 2026 Lyxian. Built with too much coffee and not enough sleep.
+				</div>
+
+				<div class="footer-links">
+					<a href="https://github.com/Lyxian0906">GitHub</a>
+					<a href="https://www.linkedin.com/in/alba-manzano-lópez">LinkedIn</a>
+					<a href="">Instagram (coming soon)</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="translations.js"></script>
+		<script src="i18n.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
