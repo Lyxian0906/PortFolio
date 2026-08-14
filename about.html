@@ -12,6 +12,96 @@
 		/>
 
 		<link rel="stylesheet" href="style.css" />
+
+		<style>
+			html {
+				scroll-behavior: smooth;
+			}
+			main section[id] {
+				scroll-margin-top: 90px;
+			}
+			.quick-nav {
+				position: sticky;
+				top: 0;
+				z-index: 40;
+				display: flex;
+				flex-wrap: wrap;
+				gap: 10px;
+				padding: 14px 24px;
+				margin-bottom: 12px;
+				backdrop-filter: blur(12px);
+				-webkit-backdrop-filter: blur(12px);
+				background: rgba(11, 9, 22, 0.72);
+				border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+			}
+			.quick-nav a {
+				font-family: var(--font-mono);
+				font-size: 0.78rem;
+				padding: 6px 14px;
+				border-radius: 999px;
+				border: 1px solid rgba(255, 255, 255, 0.14);
+				color: var(--text-dim, #a0a0b0);
+				text-decoration: none;
+				white-space: nowrap;
+				transition: all 0.2s ease;
+			}
+			.quick-nav a:hover,
+			.quick-nav a.active {
+				color: #0b0916;
+				background: var(--gradient-main);
+				border-color: transparent;
+			}
+			.cert-grid {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+				gap: 24px;
+				margin-top: 32px;
+			}
+			.cert-card {
+				padding: 28px;
+				border-radius: 20px;
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				background: rgba(255, 255, 255, 0.03);
+				display: flex;
+				flex-direction: column;
+			}
+			.cert-icon {
+				font-size: 1.8rem;
+				margin-bottom: 12px;
+			}
+			.cert-card h3 {
+				font-size: 1.05rem;
+				margin-bottom: 8px;
+			}
+			.cert-date {
+				font-family: var(--font-mono);
+				font-size: 0.78rem;
+				color: var(--text-dim);
+				margin-bottom: 10px;
+			}
+			.cert-card p {
+				color: var(--text-dim);
+				font-size: 0.9rem;
+				margin-bottom: 18px;
+				flex-grow: 1;
+			}
+			.cert-link {
+				display: inline-block;
+				font-family: var(--font-mono);
+				font-size: 0.85rem;
+				color: inherit;
+				text-decoration: none;
+				border-bottom: 1px solid currentColor;
+				padding-bottom: 2px;
+				width: fit-content;
+			}
+			.cert-note {
+				margin-top: 20px;
+				color: var(--text-dim);
+				font-size: 0.85rem;
+				font-style: italic;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -38,11 +128,22 @@
 			</div>
 		</header>
 
+		<nav class="quick-nav" aria-label="Section quick navigation">
+			<a href="#about-me" data-i18n="qnav_about">About</a>
+			<a href="#languages" data-i18n="qnav_langs">Languages</a>
+			<a href="#soft-skills" data-i18n="qnav_soft">Soft Skills</a>
+			<a href="#tech-skills" data-i18n="qnav_tech">Skills</a>
+			<a href="#experience" data-i18n="qnav_exp">Experience</a>
+			<a href="#studies" data-i18n="qnav_stu">Studies</a>
+			<a href="#certificates" data-i18n="qnav_cert">Certificates</a>
+		</nav>
+
 		<main>
 			<section
+				id="about-me"
 				class="wrap"
 				style="
-					padding-top: 80px;
+					padding-top: 40px;
 					display: grid;
 					grid-template-columns: 0.9fr 1.1fr;
 					gap: 56px;
@@ -90,7 +191,7 @@
 						One of my biggest dreams is to develop my own video game, combining my
 						passion for programming with digital design.
 					</p>
-					<div class="reveal">
+					<div class="reveal" id="languages">
 					<p class="eyebrow2" data-i18n="lang_eyebrow">Languages</p>
 
 						<p class="lead" style="max-width: 640px">
@@ -133,7 +234,7 @@
 					</h1>
 				</div>
 
-				<div class="reveal">
+				<div class="reveal" id="soft-skills">
 					<p class="eyebrow3" data-i18n="others_eyebrow">Soft Skills</p>
 					<div class="skills-grid">
 					<p class="lead" style="max-width: 640px" data-i18n="skills1_lead">Conflict Resolution</p>
@@ -148,7 +249,7 @@
 				</div>
 
 			</section>
-			<section class="wrap">
+			<section class="wrap" id="tech-skills">
 				<div class="section-head reveal">
 					<p class="eyebrow" data-i18n="skills_eyebrow">SKILLS 2.0</p>
 					<h2 style="font-size: 2rem" data-i18n="skills_title">
@@ -307,7 +408,7 @@
 				</div>
 			</section>
 
-			<section class="wrap">
+			<section class="wrap" id="experience">
 				<div class="section-head reveal">
 					<p class="eyebrow" data-i18n="exp_eyebrow">EXPERIENCE</p>
 					<h2 style="font-size: 2rem" data-i18n="exp_title">My Journey</h2>
@@ -360,7 +461,7 @@
 			</section>
 
 
-			<section class="wrap2">
+			<section class="wrap2" id="studies">
 				<div class="section-head reveal">
 					<p class="eyebrow" data-i18n="stu_eyebrow">STUDIES</p>
 					<h2 style="font-size: 2rem" data-i18n="stu_title">My Start</h2>
@@ -405,6 +506,38 @@
 					</div>
 				</div>
 			</section>
+			<section class="wrap" id="certificates">
+				<div class="section-head reveal">
+					<p class="eyebrow" data-i18n="cert_eyebrow">CERTIFICATES &amp; EXTRAS</p>
+					<h2 style="font-size: 2rem" data-i18n="cert_title">
+						Certificates &amp; Achievements
+					</h2>
+				</div>
+
+				<div class="cert-grid reveal">
+					<div class="cert-card">
+						<div class="cert-icon">🏆</div>
+						<h3 data-i18n="cert1_title">Contest Participation</h3>
+						<div class="cert-date">2026</div>
+						<p data-i18n="cert1_desc">
+							Certificate of participation in a programming contest.
+							Replace this text with the real contest name and details.
+						</p>
+						<a
+							href="certificates/contest-participation.pdf"
+							target="_blank"
+							rel="noopener"
+							class="cert-link"
+							data-i18n="cert_view"
+							>View PDF →</a
+						>
+					</div>
+				</div>
+
+				<p class="cert-note" data-i18n="cert_note">
+					More certificates coming soon.
+				</p>
+			</section>
 		</main>
 
 		<footer>
@@ -441,6 +574,30 @@
 
 				obs.observe(bar);
 			});
+
+			
+			const navLinks = document.querySelectorAll(".quick-nav a");
+			const navSections = Array.from(navLinks)
+				.map((link) => document.querySelector(link.getAttribute("href")))
+				.filter(Boolean);
+
+			const navObs = new IntersectionObserver(
+				(entries) => {
+					entries.forEach((entry) => {
+						const link = document.querySelector(
+							`.quick-nav a[href="#${entry.target.id}"]`,
+						);
+						if (!link) return;
+						if (entry.isIntersecting) {
+							navLinks.forEach((l) => l.classList.remove("active"));
+							link.classList.add("active");
+						}
+					});
+				},
+				{ rootMargin: "-100px 0px -70% 0px" },
+			);
+
+			navSections.forEach((section) => navObs.observe(section));
 		</script>
 	</body>
 </html>
