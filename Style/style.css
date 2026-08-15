@@ -1087,3 +1087,38 @@ footer {
 .project-links a:hover {
 	color: var(--cyan);
 }
+
+
+/*Fading star css*/
+.fs-quote {
+				border-left: 2px solid rgba(255, 255, 255, 0.2);
+				padding-left: 22px;
+				margin: 0;
+				font-style: italic;
+				color: var(--text-dim);
+				line-height: 1.9;
+			}
+			.fs-time-table {
+				width: 100%;
+				border-collapse: collapse;
+				margin-top: 20px;
+			}
+			.fs-time-table th,
+			.fs-time-table td {
+				text-align: left;
+				padding: 14px 16px;
+				border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+				font-size: 0.9rem;
+			}
+			.fs-time-table th {
+				font-family: var(--font-mono);
+				font-size: 0.78rem;
+				text-transform: uppercase;
+				letter-spacing: 0.04em;
+				color: var(--text-dim);
+			}
+			.fs-time-table td:last-child,
+			.fs-time-table th:last-child {
+				color: var(--text-dim);
+				font-family: var(--font-mono);
+			}

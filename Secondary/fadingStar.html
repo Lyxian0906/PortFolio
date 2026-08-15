@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The Fading Star</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../Style/style.css" />
+	</head>
+	<body>
+		<div class="blobs">
+			<div class="blob blob-1"></div>
+			<div class="blob blob-2"></div>
+			<div class="blob blob-3"></div>
+		</div>
+		<div class="cursor-glow"></div>
+
+		<header class="site-nav">
+			<div class="nav-inner">
+				<a href="index.html" class="logo">lyx<span>.dev</span></a>
+				<nav class="nav-links">
+					<a href="index.html">Home</a>
+					<a href="about.html">About</a>
+					<a href="projects.html">Projects</a>
+					<a href="contact.html">Contact</a>
+				</nav>
+				<button class="nav-toggle" aria-label="Toggle menu">☰</button>
+			</div>
+		</header>
+
+		<main>
+			<!-- HERO -->
+			<section class="wrap" style="padding-bottom: 20px">
+				<a
+					href="../Others/projects.html"
+					class="eyebrow reveal"
+					style="
+						text-decoration: none;
+						display: inline-block;
+						margin-bottom: 16px;
+					"
+					>← Back to Projects</a
+				>
+
+				<p class="eyebrow reveal">PROJECT DEEP DIVE</p>
+
+				<h1
+					class="reveal"
+					style="font-size: clamp(2rem, 4vw, 2.8rem); max-width: 680px"
+				>
+					The Fading Star
+				</h1>
+
+				<blockquote class="fs-quote reveal" style="max-width: 680px">
+					The sword isn't just a sword.
+                    The journey isn't just a journey. The darkness isn't just darkness.
+                    The fading star isn't just magic.
+				</blockquote>
+
+				<p class="lead reveal" style="max-width: 640px">
+					A 2D adventure/platformer I'm just starting to prototype in Unity — my
+					step up from FloopyChicken, meant to teach me multiple scenes,
+					dialogue, inventory, abilities, enemies, NPCs, saving/loading,
+					animation, and real level design.
+				</p>
+
+				<div
+					class="reveal"
+					style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+				>
+					<span class="tag">Unity</span>
+					<span class="tag">C#</span>
+					<span class="tag">2D</span>
+					<span class="tag">Concept</span>
+					<span class="tag">AI modelling</span>
+					<span class="tag">In Development</span>
+				</div>
+			</section>
+
+			<!-- GENERAL EXPLANATION -->
+			<section class="wrap">
+				<div class="section-head reveal">
+					<p class="eyebrow">OVERVIEW</p>
+					<h2 style="font-size: 2rem">What This Project Is</h2>
+				</div>
+
+				<p class="reveal" style="max-width: 720px; color: var(--text-dim)">
+					The fading star game is supposed to be a story driven by fantasy
+					adventure game more pointing at themes linke loneliness, memory,
+					connection, and learning that even a fading star can still guide
+					someone through the darkness. You play as Lukene, a young wandering
+					warrior with goblin ears. He travels through a beautiful but dying
+					world, carring a fragment of celestial light that is gradually
+					disappearing Lukene is not like a traditional chosen hero. He doesn't
+					want to save the world, neither he understand why he's there. But he
+					know that the light inside him is fading, and that if it dissapears
+					forever, something important will be lost.
+				</p>
+			</section>
+
+			<section class="wrap">
+				<div class="section-head reveal">
+					<p class="eyebrow">STORY IDEA</p>
+					<h2 style="font-size: 2rem">The real story behind the Fading star</h2>
+				</div>
+
+				<blockquote class="fs-quote reveal" style="max-width: 680px">
+					When you help someone, it becomes brighter. When you're overwhelmed,
+					pieces of stardust fall from it.
+				</blockquote>
+
+				<p
+					class="reveal"
+					style="max-width: 720px; color: var(--text-dim); margin-top: 20px"
+				>
+					This fantasy type story is basically a metaphor for real life. Lukene
+					starys the game believing he has to travel alone. He doesn't hate
+					people but he got used to:
+				</p>
+				<ul>
+					<li>Dealing with problems himself</li>
+					<li>Hiding when he's struggling</li>
+					<li>Feeling like nobody would really understand</li>
+					<li>Helping other people while ignoring himself</li>
+					<li>Leaving before someone can leave him</li>
+					<li>Carrying memories that hurt</li>
+					<li>Wondering whether he is actually important to anyone</li>
+				</ul>
+				<p
+					class="reveal"
+					style="max-width: 720px; color: var(--text-dim); margin-top: 20px"
+				>
+					<br /><br />
+					So he became a traveller He keeps moving because stopping means having
+					to think about everything he's running from.
+				</p>
+
+				<div class="section-head reveal">
+					<p class="eyebrow">THE DARKNESS</p>
+				</div>
+
+				<p
+					class="reveal"
+					style="max-width: 720px; color: var(--text-dim); margin-top: 20px"
+				>
+					The Darkness isn't depression. It-s disconnection from other people,
+					your memories, your identity, emotions...
+					<br />
+					The WHO describes loneliness as the painful gap between the
+					connections someone has and the connections they want or need. It also
+					notes that loneliness and social isolation can affect mental health
+					and wellbeing.
+				</p>
+			</section>
+
+			<!-- MECHANICS -->
+			<section class="wrap">
+				<div class="section-head reveal">
+					<p class="eyebrow">MECHANICS</p>
+					<h2 style="font-size: 2rem">Planned Systems</h2>
+				</div>
+
+				<p
+					class="reveal"
+					style="max-width: 720px; color: var(--text-dim); margin-bottom: 28px"
+				>
+					<!-- Edit this list as mechanics get built, cut, or added. -->
+					A running list of the systems this project is meant to teach me,
+					roughly in the order I plan to tackle them.
+				</p>
+
+				<div class="grid grid-2 reveal" style="gap: 24px">
+					<div class="card card-glow">
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">
+							The Star (Core Mechanic)
+						</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							The star's glow reacts to the player's actions dimming under
+							pressure, brightening when they help someone.
+						</p>
+					</div>
+
+					<div class="card card-glow">
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">
+							Multiple Scenes
+						</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							Moving between areas/levels and loading them cleanly in Unity.
+						</p>
+					</div>
+
+					<div class="card card-glow">
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">Dialogue</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							A basic dialogue system for talking to NPCs and telling the story.
+						</p>
+					</div>
+
+					<div class="card card-glow">
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">Inventory</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							Picking up, storing, and using items found in the world.
+						</p>
+					</div>
+
+					<div class="card card-glow">
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">Abilities</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							Player abilities that unlock as the story and the star progress.
+						</p>
+					</div>
+
+					<div class="card card-glow">
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">
+							Enemies &amp; NPCs
+						</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							Basic enemy behavior, plus NPCs to talk to and help.
+						</p>
+					</div>
+
+					<div class="card card-glow">
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">
+							Saving / Loading
+						</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							Persisting player progress between sessions.
+						</p>
+					</div>
+
+					<div class="card card-glow">
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">
+							Animation &amp; Level Design
+						</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							Character animation and actually designing levels, instead of a
+							single endless loop like FloopyChicken.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- AI USE -->
+			<section class="wrap">
+				<div class="section-head reveal">
+					<p class="eyebrow">AI USE</p>
+					<h2 style="font-size: 2rem">Where AI Fits In</h2>
+				</div>
+
+				<p class="reveal" style="max-width: 720px; color: var(--text-dim)">
+					I'm planning or used
+				</p>
+			</section>
+
+			<section class="wrap">
+				<div class="section-head reveal">
+					<p class="eyebrow">SCREENSHOTS</p>
+					<h2 style="font-size: 2rem">Models &amp; Concept Art</h2>
+				</div>
+
+				<p
+					class="reveal"
+					style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 28px"
+				>
+					Early looks at the character, world, and prototype — this section will
+					grow as the project moves past the concept phase.
+				</p>
+
+				<div class="grid grid-2 reveal" style="gap: 24px">
+					<div class="card card-glow">
+						<img
+							src="../Images/fadingStar/1.png"
+							alt="The Fading Star character concept art"
+							style="
+								width: 100%;
+								border-radius: 14px;
+								margin-bottom: 14px;
+								display: block;
+							"
+						/>
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">
+							Character Concept
+						</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							Early concept art for the main character and the star.
+						</p>
+					</div>
+
+            
+					<div class="card card-glow">
+						<img
+							src="../Images/fadingStar/3.png"
+							alt="The Fading Star character concept art"
+							style="
+								width: 100%;
+								border-radius: 14px;
+								margin-bottom: 14px;
+								display: block;
+							"
+						/>
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">
+							Character Concept (FULL)
+						</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							Early concept art for the main character  front view
+						</p>
+					</div>
+
+					<div class="card card-glow">
+						<img
+							src="assets/fadingstar/concept-2.jpg"
+							alt="The Fading Star prototype screenshot"
+							style="
+								width: 100%;
+								border-radius: 14px;
+								margin-bottom: 14px;
+								display: block;
+							"
+						/>
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">Prototype</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							First look at the prototype in Unity. 
+						</p>
+					</div>
+
+					<div class="card card-glow">
+						<img
+							src="assets/fadingstar/concept-3.jpg"
+							alt="The Fading Star world/level concept art"
+							style="
+								width: 100%;
+								border-radius: 14px;
+								margin-bottom: 14px;
+								display: block;
+							"
+						/>
+						<h3 style="font-size: 1.05rem; margin-bottom: 6px">
+							World &amp; Level Sketches
+						</h3>
+						<p style="color: var(--text-dim); font-size: 0.9rem">
+							Early sketches of the world and level layout ideas.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<!-- TIME SPENT -->
+			<section class="wrap">
+				<div class="section-head reveal">
+					<p class="eyebrow">DEV LOG</p>
+					<h2 style="font-size: 2rem">Time Per Part</h2>
+				</div>
+
+				<p class="reveal" style="color: var(--text-dim); font-size: 0.9rem">
+					A rough breakdown of time spent on each part of the project so far.
+				</p>
+
+				<table class="fs-time-table reveal">
+					<thead>
+						<tr>
+							<th>Part</th>
+							<th>Time</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Concept &amp; Story</td>
+							<td>—</td>
+						</tr>
+						<tr>
+							<td>Character &amp; World Design</td>
+							<td>—</td>
+						</tr>
+						<tr>
+							<td>Prototyping</td>
+							<td>—</td>
+						</tr>
+						<tr>
+							<td>Programming</td>
+							<td>—</td>
+						</tr>
+						<tr>
+							<td>Art / Assets</td>
+							<td>—</td>
+						</tr>
+						<tr>
+							<td>Total</td>
+							<td>—</td>
+						</tr>
+					</tbody>
+				</table>
+			</section>
+		</main>
+
+		<footer>
+			<div class="wrap footer-inner">
+				<div class="footer-note">
+					© 2026 Lyxian. Built with too much coffee and not enough sleep.
+				</div>
+				<div class="footer-links">
+					<a href="https://github.com/Lyxian0906">GitHub</a>
+					<a href="https://www.linkedin.com/in/alba-manzano-lópez">LinkedIn</a>
+					<a href="">Instagram (coming soon)</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../Script/translations.js"></script>
+		<script src="../Script/i18n.js"></script>
+		<script src="../Script/script.js"></script>
+	</body>
+</html>
