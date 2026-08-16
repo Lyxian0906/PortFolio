@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>The Fading Star</title>
+		<title>Projects Lyx</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
@@ -21,416 +21,430 @@
 
 		<header class="site-nav">
 			<div class="nav-inner">
-				<a href="index.html" class="logo">lyx<span>.dev</span></a>
+				<a href="../index.html" class="logo">lyx<span>.dev</span></a>
 				<nav class="nav-links">
-					<a href="index.html" data-i18n="nav_home">Home</a>
-					<a href="about.html" data-i18n="nav_about">About</a>
-					<a href="projects.html" data-i18n="nav_projects">Projects</a>
-					<a href="contact.html" data-i18n="nav_contact">Contact</a>
+					<a href="../index.html" data-i18n="nav_home">Home</a>
+					<a href="../Others/about.html" data-i18n="nav_about">About</a>
+					<a href="../Others/projects.html" data-i18n="nav_projects">Projects</a>
+					<a href="../Others/contact.html" data-i18n="nav_contact">Contact</a>
 				</nav>
 				<button class="nav-toggle" aria-label="Toggle menu">☰</button>
 			</div>
 		</header>
 
 		<main>
-			<!-- HERO -->
 			<section class="wrap" style="padding-bottom: 20px">
-				<a
-					href="../Others/projects.html"
-					class="eyebrow reveal"
-					style="
-						text-decoration: none;
-						display: inline-block;
-						margin-bottom: 16px;
-					"
-					data-i18n="lib_back"
-					>← Back to Projects</a
-				>
-
-				<p class="eyebrow reveal" data-i18n="fs_deepdive_eyebrow">
-					PROJECT DEEP DIVE
-				</p>
-
+				<p class="eyebrow reveal" data-i18n="projects_eyebrow">SELECTED WORK</p>
 				<h1
 					class="reveal"
 					style="font-size: clamp(2rem, 4vw, 2.8rem); max-width: 680px"
-					data-i18n="p10_title"
 				>
-					The Fading Star
+					<span data-i18n="projects_title_1">Things I've</span>
+					<span class="gradient-text" data-i18n="projects_title_2"
+						>designed, built, and cried with.</span
+					>
 				</h1>
-
-				<blockquote
-					class="fs-quote reveal"
-					style="max-width: 680px"
-					data-i18n="fs_opening_quote"
-				>
-					The sword isn't just a sword. The journey isn't just a journey. The
-					darkness isn't just darkness. The fading star isn't just magic.
-				</blockquote>
-
-				<p class="lead reveal" style="max-width: 640px" data-i18n="fs_lead">
-					A 2D adventure/platformer I'm just starting to prototype in Unity —
-					my step up from FloopyChicken, meant to teach me multiple scenes,
-					dialogue, inventory, abilities, enemies, NPCs, saving/loading,
-					animation, and real level design.
-				</p>
-
-				<div
-					class="reveal"
-					style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
-				>
-					<span class="tag">Unity</span>
-					<span class="tag">C#</span>
-					<span class="tag">2D</span>
-					<span class="tag">Concept</span>
-					<span class="tag">AI modelling</span>
-					<span class="tag">In Development</span>
-				</div>
 			</section>
 
-			<!-- GENERAL EXPLANATION -->
-			<section class="wrap">
-				<div class="section-head reveal">
-					<p class="eyebrow" data-i18n="fs_overview_eyebrow">OVERVIEW</p>
-					<h2 style="font-size: 2rem" data-i18n="fs_overview_title">
-						What This Project Is
-					</h2>
+			<section class="wrap" style="padding-top: 0">
+				<div class="filters reveal">
+					<button
+						class="filter-btn active-filter"
+						data-filter="all"
+						data-i18n="filter_all"
+					>
+						All
+					</button>
+					<button
+						class="filter-btn"
+						data-filter="frontend"
+						data-i18n="filter_frontend"
+					>
+						Frontend
+					</button>
+					<button
+						class="filter-btn"
+						data-filter="backend"
+						data-i18n="filter_backend"
+					>
+						Backend
+					</button>
+					<button
+						class="filter-btn"
+						data-filter="fullstack"
+						data-i18n="filter_fullstack"
+					>
+						Full-Stack
+					</button>
 				</div>
 
 				<p
 					class="reveal"
-					style="max-width: 720px; color: var(--text-dim)"
-					data-i18n="fs_overview_desc"
+					style="color: var(--text-dim); font-size: 0.9rem; margin: 4px 0 28px 0"
+					data-i18n="projects_links_hint"
 				>
-					The Fading Star is a story-driven fantasy adventure game, built
-					around themes like loneliness, memory, and connection — and the idea
-					that even a fading star can still guide someone through the
-					darkness. You play as Lukene, a young wandering warrior with goblin
-					ears. He travels through a beautiful but dying world, carrying a
-					fragment of celestial light that is gradually disappearing. Lukene
-					isn't a traditional chosen hero — he doesn't want to save the world,
-					and he doesn't even understand why he's there. But he knows that the
-					light inside him is fading, and that if it disappears forever,
-					something important will be lost.
-				</p>
-			</section>
-
-			<section class="wrap">
-				<div class="section-head reveal">
-					<p class="eyebrow" data-i18n="fs_story_eyebrow">STORY IDEA</p>
-					<h2 style="font-size: 2rem" data-i18n="fs_story_title">
-						The Real Story Behind the Fading Star
-					</h2>
-				</div>
-
-				<blockquote
-					class="fs-quote reveal"
-					style="max-width: 680px"
-					data-i18n="fs_story_quote"
-				>
-					When you help someone, it becomes brighter. When you're overwhelmed,
-					pieces of stardust fall from it.
-				</blockquote>
-
-				<p
-					class="reveal"
-					style="max-width: 720px; color: var(--text-dim); margin-top: 20px"
-					data-i18n="fs_story_intro"
-				>
-					This fantasy story is basically a metaphor for real life. Lukene
-					starts the game believing he has to travel alone. He doesn't hate
-					people, but he's gotten used to:
-				</p>
-				<ul style="max-width: 720px; color: var(--text-dim)">
-					<li data-i18n="fs_story_li1">Dealing with problems himself</li>
-					<li data-i18n="fs_story_li2">Hiding when he's struggling</li>
-					<li data-i18n="fs_story_li3">
-						Feeling like nobody would really understand
-					</li>
-					<li data-i18n="fs_story_li4">
-						Helping other people while ignoring himself
-					</li>
-					<li data-i18n="fs_story_li5">Leaving before someone can leave him</li>
-					<li data-i18n="fs_story_li6">Carrying memories that hurt</li>
-					<li data-i18n="fs_story_li7">
-						Wondering whether he is actually important to anyone
-					</li>
-				</ul>
-				<p
-					class="reveal"
-					style="max-width: 720px; color: var(--text-dim); margin-top: 20px"
-					data-i18n="fs_story_outro"
-				>
-					So he became a traveller. He keeps moving, because stopping means
-					having to think about everything he's running from.
+					Click "Live" to see the project in action — or a photo preview if
+					it isn't deployed yet. Click "Code" to browse the source on GitHub.
 				</p>
 
-				<div class="section-head reveal">
-					<p class="eyebrow" data-i18n="fs_darkness_eyebrow">THE DARKNESS</p>
+				<div class="grid grid-2">
+					<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">📖</div>
+							<div class="project-links">
+								<a href="../Secondary/library.html"link_live">Live</a>
+								<a href="#" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p1_title">Book Library</h3>
+						<p
+							style="color: var(--text-dim); font-size: 0.8rem; font-style: italic; margin-top: 4px; margin-bottom: 0"
+							data-i18n="not_public_note"
+						>
+							Not public yet — click "Live" to see photos.
+						</p>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p1_desc">
+								A full-stack library management system built with Java and
+								Spring Boot. It allows users to manage books, authors, and user
+								accounts with secure authentication, role-based access, and a
+								SQL Server database.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Java</span>
+							<span class="tag">Spring Boot</span>
+							<span class="tag">Spring Data JPA</span>
+							<span class="tag">SQL Server</span>
+							<span class="tag">Gradle</span>
+						</div>
+					</div>
+
+					<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">🌳</div>
+							<div class="project-links">
+								<a
+									href="https://lyxian0906.github.io/LyxianWeb/"
+									target="_blank"
+									rel="noopener"
+									data-i18n="link_live"
+									>Live</a
+								>
+								<a
+									href="https://github.com/Lyxian0906/LyxianWeb"
+									target="_blank"
+									rel="noopener"
+									data-i18n="link_code"
+									>Code</a
+								>
+							</div>
+						</div>
+
+						<h3 data-i18n="p2_title">Memory Tree</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p2_desc">
+								A personal website where users can capture memories and emotions
+								by placing glowing orbs on a magical tree. Built with Firebase
+								Authentication and Firestore, allowing each user to create and
+								manage their own unique memory tree.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">JavaScript</span>
+							<span class="tag">Firebase</span>
+							<span class="tag">Firestore</span>
+							<span class="tag">HTML</span>
+							<span class="tag">CSS</span>
+						</div>
+					</div>
+
+					<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">🎧</div>
+							<div class="project-links">
+								<a
+									href="https://lyxian0906.github.io/Mini-Reproductor-de-musica/"
+									target="_blank"
+									rel="noopener"
+									data-i18n="link_live"
+									>Live</a
+								>
+								<a
+									href="https://github.com/Lyxian0906/Mini-Reproductor-de-musica"
+									target="_blank"
+									rel="noopener"
+									data-i18n="link_code"
+									>Code</a
+								>
+							</div>
+						</div>
+
+						<h3 data-i18n="p3_title">Web Music Player</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p3_desc">
+								One of my first JavaScript projects, featuring a custom
+								web-based music player with playlists, playback controls, and a
+								clean, responsive interface. It helped me strengthen my
+								JavaScript skills and understand DOM manipulation.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">JavaScript</span>
+							<span class="tag">HTML</span>
+							<span class="tag">CSS</span>
+						</div>
+					</div>
+
+					<div class="card card-glow project-card reveal" data-tags="frontend">
+						<div class="project-card-top">
+							<div class="icon-tile">🌍</div>
+
+							<div class="project-links">
+								<a href="../Secondary/airQuality.html" target="_blank" rel="noopener" data-i18n="link_live"
+									>Live</a
+								>
+								<a href="../Secondary/airQuality.html" target="_blank" rel="noopener" data-i18n="link_code"
+									>Code</a
+								>
+							</div>
+						</div>
+
+						<h3 data-i18n="p5_title">
+							Air Quality Analysis Dashboard
+						</h3>
+						<p
+							style="color: var(--text-dim); font-size: 0.8rem; font-style: italic; margin-top: 4px; margin-bottom: 0"
+							data-i18n="not_public_note"
+						>
+							Not public yet — click "Live" to see photos.
+						</p>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p5_desc">
+								A data analysis project focused on monitoring and visualizing
+								air quality information. Built using SQL, ETL processes, and
+								Power BI to transform raw environmental data into interactive
+								dashboards and meaningful insights.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Power BI</span>
+							<span class="tag">SQL</span>
+							<span class="tag">ETL</span>
+							<span class="tag">Data Analysis</span>
+						</div>
+					</div>
+
+					<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">📷</div>
+
+							<div class="project-links">
+								<a
+									href="https://lyxian0906.github.io/CameraApp/"
+									target="_blank"
+									rel="noopener"
+									data-i18n="link_live"
+									>Live</a
+								>
+								<a
+									href="https://github.com/Lyxian0906/CameraApp"
+									target="_blank"
+									rel="noopener"
+									data-i18n="link_code"
+									>Code</a
+								>
+							</div>
+						</div>
+
+						<h3 data-i18n="p6_title">Camera Management System</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p6_desc">
+								A desktop application developed in Java still under development,
+								to make it do things with hand motions.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Java</span>
+							<span class="tag">CSS</span>
+							<span class="tag">HTML</span>
+							<span class="tag">Desktop Application (IN THE FUTURE)</span>
+						</div>
+					</div>
+										<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">123</div>
+							<div class="project-links">
+								<a href="https://lyxian0906.github.io/Calculadora/" data-i18n="link_live">Live</a>
+								<a href="https://github.com/Lyxian0906/Calculadora" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p7_title">Calculator</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p7_desc">
+								A simple calculator, my first web proyect when I started studying.
+								I used figma to do the design.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">CSS</span>
+							<span class="tag">Figma</span>
+							<span class="tag">JavaScript</span>
+							<span class="tag">HTML</span>
+						</div>
+					</div>
+										<div
+						class="card card-glow project-card reveal"
+						data-tags="fullstack java"
+					>
+						<div class="project-card-top">
+							<div class="icon-tile">✍️</div>
+							<div class="project-links">
+								<a href="https://lyxian0906.github.io/To-Do-list/" data-i18n="link_live">Live</a>
+								<a href="https://github.com/Lyxian0906/To-Do-list" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p8_title">TO-DO list</h3>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p8_desc">
+								Another simple proyect, to take note of tasks (Spanish only website for now),
+								you can select the type of task, the name, and if you want to put any additional notes
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">CSS</span>
+							<span class="tag">JavaScript</span>
+							<span class="tag">HTML</span>
+						</div>
+					</div>
+
+					<div class="card card-glow project-card reveal" data-tags="fullstack java">
+						<div class="project-card-top">
+							<div class="icon-tile">🐔</div>
+							<div class="project-links">
+								<a href="../Secondary/floopyChicken.html" data-i18n="link_live">Live</a>
+								<a href="https://github.com/Lyxian0906/FloppyChick" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p9_title">FloopyChicken</h3>
+						<p
+							style="color: var(--text-dim); font-size: 0.8rem; font-style: italic; margin-top: 4px; margin-bottom: 0"
+							data-i18n="demo_note"
+						>
+							Early demo — click "Live" for a video walkthrough and screenshots and the demo version game.
+						</p>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p9_desc">
+								My first 2D game, made in Unity — a Flappy Bird-style game with
+								a chicken instead of a bird. Building it taught me 2D
+								collisions, spawning and destroying pipe objects, trigger
+								zones, and UI text. The pipe and chicken art were
+								AI-generated. Still a work in progress. I want to add skins,
+								levels, and more before calling it finished.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Unity</span>
+							<span class="tag">C#</span>
+							<span class="tag">2D</span>
+							<span class="tag">Game Dev</span>
+						</div>
+					</div>
+
+					<div class="card card-glow project-card reveal" data-tags="frontend">
+						<div class="project-card-top">
+							<div class="icon-tile">⭐</div>
+							<div class="project-links">
+								<a href="../Secondary/fadingStar.html" data-i18n="link_live">Live</a>
+								<span
+									class="tag"
+									style="opacity: 0.7; cursor: default"
+									data-i18n="link_coming_soon"
+									>Coming soon</span
+								>
+							</div>
+						</div>
+
+						<h3 data-i18n="p10_title">The Fading Star</h3>
+						<p
+							style="color: var(--text-dim); font-size: 0.8rem; font-style: italic; margin-top: 4px; margin-bottom: 0"
+							data-i18n="concept_note"
+						>
+							Concept phase — nothing playable yet.
+						</p>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p10_desc">
+								A 2D adventure/platformer I'm just starting to prototype. The
+								core idea: my character carries a small star that dims when
+								things get heavy and grows brighter when they help others
+								along the way. It's meant to push me way past Flappy Bird —
+								multiple scenes, dialogue, an inventory, abilities, enemies,
+								NPCs, save/load, animation, and real level design.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">Unity</span>
+							<span class="tag">C#</span>
+							<span class="tag">2D</span>
+							<span class="tag">Concept</span>
+						</div>
+					</div>
 				</div>
-
-				<p
-					class="reveal"
-					style="max-width: 720px; color: var(--text-dim); margin-top: 20px"
-					data-i18n="fs_darkness_desc"
-				>
-					The Darkness isn't depression. It's disconnection — from other
-					people, your memories, your identity, your emotions. The WHO
-					describes loneliness as the painful gap between the connections
-					someone has and the connections they want or need. It also notes
-					that loneliness and social isolation can affect mental health and
-					wellbeing.
-				</p>
-			</section>
-
-			<!-- MECHANICS -->
-			<section class="wrap">
-				<div class="section-head reveal">
-					<p class="eyebrow" data-i18n="fs_mechanics_eyebrow">MECHANICS</p>
-					<h2 style="font-size: 2rem" data-i18n="fs_mechanics_title">
-						Planned Systems
-					</h2>
-				</div>
-
-				<p
-					class="reveal"
-					style="max-width: 720px; color: var(--text-dim); margin-bottom: 28px"
-					data-i18n="fs_mechanics_lead"
-				>
-					A running list of the systems this project is meant to teach me,
-					roughly in the order I plan to tackle them.
-				</p>
-
-				<div class="grid grid-2 reveal" style="gap: 24px">
-					<div class="card card-glow">
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_mech1_title">
-							The Star (Core Mechanic)
-						</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_mech1_desc">
-							The star's glow reacts to the player's actions dimming under
-							pressure, brightening when they help someone.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_mech2_title">
-							Multiple Scenes
-						</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_mech2_desc">
-							Moving between areas/levels and loading them cleanly in Unity.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_mech3_title">Dialogue</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_mech3_desc">
-							A basic dialogue system for talking to NPCs and telling the story.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_mech4_title">Inventory</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_mech4_desc">
-							Picking up, storing, and using items found in the world.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_mech5_title">Abilities</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_mech5_desc">
-							Player abilities that unlock as the story and the star progress.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_mech6_title">
-							Enemies &amp; NPCs
-						</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_mech6_desc">
-							Basic enemy behavior, plus NPCs to talk to and help.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_mech7_title">
-							Saving / Loading
-						</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_mech7_desc">
-							Persisting player progress between sessions.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_mech8_title">
-							Animation &amp; Level Design
-						</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_mech8_desc">
-							Character animation and actually designing levels, instead of a
-							single endless loop like FloopyChicken.
-						</p>
-					</div>
-				</div>
-			</section>
-
-			<!-- AI USE -->
-			<section class="wrap">
-				<div class="section-head reveal">
-					<p class="eyebrow" data-i18n="fs_ai_eyebrow">AI USE</p>
-					<h2 style="font-size: 2rem" data-i18n="fs_ai_title">
-						Where AI Fits In
-					</h2>
-				</div>
-
-				<!-- This sentence still reads unfinished ("I'm planning or used") — worth expanding once you know exactly what to say here. -->
-				<p class="reveal" style="max-width: 720px; color: var(--text-dim)" data-i18n="fs_ai_desc">
-					I'm planning or used
-				</p>
-			</section>
-
-			<!-- MODEL / CONCEPT SCREENSHOTS -->
-			<section class="wrap">
-				<div class="section-head reveal">
-					<p class="eyebrow" data-i18n="lib_gallery_eyebrow">SCREENSHOTS</p>
-					<h2 style="font-size: 2rem" data-i18n="fs_gallery_title">
-						Models &amp; Concept Art
-					</h2>
-				</div>
-
-				<p
-					class="reveal"
-					style="color: var(--text-dim); font-size: 0.9rem; margin-bottom: 28px"
-					data-i18n="fs_gallery_note"
-				>
-					Early looks at the character, world, and prototype — this section
-					will grow as the project moves past the concept phase.
-				</p>
-
-				<div class="grid grid-2 reveal" style="gap: 24px">
-					<div class="card card-glow">
-						<img
-							src="../Images/fadingStar/1.png"
-							alt="The Fading Star character concept art"
-							style="
-								width: 100%;
-								border-radius: 14px;
-								margin-bottom: 14px;
-								display: block;
-							"
-						/>
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_shot1_title">
-							Character Concept
-						</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_shot1_desc">
-							Early concept art for the main character and the star.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<img
-							src="../Images/fadingStar/2.png"
-							alt="The Fading Star character concept art, front view"
-							style="
-								width: 100%;
-								border-radius: 14px;
-								margin-bottom: 14px;
-								display: block;
-							"
-						/>
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_shot2_title">
-							Character Concept (Full)
-						</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_shot2_desc">
-							Early concept art for the main character, front view.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<img
-							src="assets/fadingstar/concept-2.jpg"
-							alt="The Fading Star prototype screenshot"
-							style="
-								width: 100%;
-								border-radius: 14px;
-								margin-bottom: 14px;
-								display: block;
-							"
-						/>
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_shot3_title">
-							Prototype
-						</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_shot3_desc">
-							First look at the prototype in Unity.
-						</p>
-					</div>
-
-					<div class="card card-glow">
-						<img
-							src="assets/fadingstar/concept-3.jpg"
-							alt="The Fading Star world/level concept art"
-							style="
-								width: 100%;
-								border-radius: 14px;
-								margin-bottom: 14px;
-								display: block;
-							"
-						/>
-						<h3 style="font-size: 1.05rem; margin-bottom: 6px" data-i18n="fs_shot4_title">
-							World &amp; Level Sketches
-						</h3>
-						<p style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_shot4_desc">
-							Early sketches of the world and level layout ideas.
-						</p>
-					</div>
-				</div>
-			</section>
-
-			<!-- TIME SPENT -->
-			<section class="wrap">
-				<div class="section-head reveal">
-					<p class="eyebrow" data-i18n="fs_devlog_eyebrow">DEV LOG</p>
-					<h2 style="font-size: 2rem" data-i18n="fs_devlog_title">
-						Time Per Part
-					</h2>
-				</div>
-
-				<p class="reveal" style="color: var(--text-dim); font-size: 0.9rem" data-i18n="fs_devlog_note">
-					A rough breakdown of time spent on each part of the project so far.
-				</p>
-
-				<table class="fs-time-table reveal">
-					<thead>
-						<tr>
-							<th data-i18n="fs_table_part">Part</th>
-							<th data-i18n="fs_table_time">Time</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td data-i18n="fs_row1">Concept &amp; Story</td>
-							<td>—</td>
-						</tr>
-						<tr>
-							<td data-i18n="fs_row2">Character &amp; World Design</td>
-							<td>—</td>
-						</tr>
-						<tr>
-							<td data-i18n="fs_row3">Prototyping</td>
-							<td>—</td>
-						</tr>
-						<tr>
-							<td data-i18n="fs_row4">Programming</td>
-							<td>—</td>
-						</tr>
-						<tr>
-							<td data-i18n="fs_row5">Art / Assets</td>
-							<td>—</td>
-						</tr>
-						<tr>
-							<td data-i18n="fs_row6">Total</td>
-							<td>—</td>
-						</tr>
-					</tbody>
-				</table>
 			</section>
 		</main>
 
@@ -451,4 +465,3 @@
 		<script src="../Script/i18n.js"></script>
 		<script src="../Script/script.js"></script>
 	</body>
-</html>
