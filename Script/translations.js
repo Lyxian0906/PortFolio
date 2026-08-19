@@ -163,7 +163,7 @@ const TRANSLATIONS = {
     stu2_role: "Formación Profesional Superior (Desarrollo Multiplataforma)", stu2_desc: "Aprendí conceptos básicos de programación, bases de datos y estructura y diseño de sitios web. También mejoré mis habilidades de resolución de conflictos, junto con otras como el pensamiento crítico y la gestión del tiempo.",
     qnav_about: "Sobre mí", qnav_langs: "Idiomas", qnav_soft: "Habilidades Blandas", qnav_tech: "Habilidades", qnav_exp: "Experiencia", qnav_stu: "Estudios", qnav_cert: "Certificados",
     cert_eyebrow: "CERTIFICADOS Y EXTRAS", cert_title: "Certificados y Logros",
-    cert1_title: "Participación en Concurso", cert1_desc: "Certificado de participación en un concurso de programación. Reemplaza este texto con el nombre real del concurso y los detalles.",
+    cert1_title: "Participación en Concurso", cert1_desc: "Certificado de participación en un concurso de Arduino.",
     cert_view: "Ver PDF →", cert_note: "Más certificados próximamente.",
 
     projects_eyebrow: "TRABAJO SELECCIONADO", projects_title_1: "Cosas que he", projects_title_2: "diseñado, construido y sufrido.",
@@ -291,7 +291,7 @@ const TRANSLATIONS = {
     stu2_role: "Formation Professionnelle Supérieure (Développement Multiplateforme)", stu2_desc: "J'ai appris les bases de la programmation, des bases de données, ainsi que la structure et le design de sites web. J'ai aussi amélioré mes compétences en résolution de conflits, ainsi que d'autres comme l'esprit critique et la gestion du temps.",
     qnav_about: "À propos", qnav_langs: "Langues", qnav_soft: "Savoir-être", qnav_tech: "Compétences", qnav_exp: "Expérience", qnav_stu: "Études", qnav_cert: "Certificats",
     cert_eyebrow: "CERTIFICATS ET EXTRAS", cert_title: "Certificats et Réalisations",
-    cert1_title: "Participation à un Concours", cert1_desc: "Certificat de participation à un concours de programmation. Remplacez ce texte par le vrai nom du concours et les détails.",
+    cert1_title: "Participation à un Concours", cert1_desc: "Certificat de participation à un concours Arduino.",
     cert_view: "Voir le PDF →", cert_note: "D'autres certificats arrivent bientôt.",
 
     projects_eyebrow: "TRAVAUX SÉLECTIONNÉS", projects_title_1: "Des choses que j'ai", projects_title_2: "conçues, construites et pleurées.",
@@ -419,7 +419,7 @@ const TRANSLATIONS = {
     stu2_role: "Formazione Professionale Superiore (Sviluppo Multipiattaforma)", stu2_desc: "Ho imparato le basi della programmazione, dei database e della struttura e design dei siti web. Ho anche migliorato le mie capacità di risoluzione dei conflitti, insieme ad altre come il pensiero critico e la gestione del tempo.",
     qnav_about: "Chi sono", qnav_langs: "Lingue", qnav_soft: "Soft Skill", qnav_tech: "Competenze", qnav_exp: "Esperienza", qnav_stu: "Studi", qnav_cert: "Certificati",
     cert_eyebrow: "CERTIFICATI ED EXTRA", cert_title: "Certificati e Riconoscimenti",
-    cert1_title: "Partecipazione al Concorso", cert1_desc: "Certificato di partecipazione a un concorso di programmazione. Sostituisci questo testo con il nome reale del concorso e i dettagli.",
+    cert1_title: "Partecipazione al Concorso", cert1_desc: "Certificato di partecipazione a un concorso Arduino.",
     cert_view: "Vedi PDF →", cert_note: "Altri certificati in arrivo.",
 
     projects_eyebrow: "LAVORI SELEZIONATI", projects_title_1: "Cose che ho", projects_title_2: "progettato, costruito e sofferto.",
@@ -547,7 +547,7 @@ const TRANSLATIONS = {
     stu2_role: "Высшее профессиональное образование (Кроссплатформенная разработка)", stu2_desc: "Изучила основы программирования, баз данных, структуры и дизайна веб-сайтов. Также улучшила навыки разрешения конфликтов, а также критическое мышление и тайм-менеджмент.",
     qnav_about: "Обо мне", qnav_langs: "Языки", qnav_soft: "Гибкие навыки", qnav_tech: "Навыки", qnav_exp: "Опыт", qnav_stu: "Образование", qnav_cert: "Сертификаты",
     cert_eyebrow: "СЕРТИФИКАТЫ И ДОПОЛНИТЕЛЬНО", cert_title: "Сертификаты и достижения",
-    cert1_title: "Участие в конкурсе", cert1_desc: "Сертификат об участии в конкурсе по программированию. Замените этот текст реальным названием конкурса и деталями.",
+    cert1_title: "Участие в конкурсе", cert1_desc: "Сертификат об участии в конкурсе по Arduino.",
     cert_view: "Открыть PDF →", cert_note: "Скоро появятся новые сертификаты.",
 
     projects_eyebrow: "ИЗБРАННЫЕ РАБОТЫ", projects_title_1: "То, что я", projects_title_2: "спроектировала, создала и над чем настрадалась.",
@@ -676,7 +676,7 @@ const TRANSLATIONS = {
     stu2_role: "高等職業訓練（マルチプラットフォーム開発）", stu2_desc: "基本的なプログラミング、データベース、Webサイトの構造とデザインについて学んだ。また、対立解決のスキルも向上させ、批判的思考や時間管理などの能力も身につけた。",
     qnav_about: "自己紹介", qnav_langs: "言語", qnav_soft: "ソフトスキル", qnav_tech: "スキル", qnav_exp: "経験", qnav_stu: "学歴", qnav_cert: "証明書",
     cert_eyebrow: "証明書とその他", cert_title: "証明書と実績",
-    cert1_title: "コンテスト参加", cert1_desc: "プログラミングコンテストへの参加証明書。実際のコンテスト名と詳細に置き換えてください。",
+    cert1_title: "コンテスト参加", cert1_desc: "Arduinoコンテストへの参加証明書。",
     cert_view: "PDFを見る →", cert_note: "他の証明書も追加予定です。",
 
     projects_eyebrow: "厳選した実績", projects_title_1: "設計・構築し、", projects_title_2: "苦労を共にしたもの。",
@@ -804,7 +804,7 @@ const TRANSLATIONS = {
     stu2_role: "고등 직업 훈련 과정 (멀티플랫폼 개발)", stu2_desc: "기본적인 프로그래밍, 데이터베이스, 웹사이트 구조와 디자인에 대해 배웠습니다. 또한 갈등 해결 능력을 향상시켰고, 비판적 사고와 시간 관리 같은 능력도 길렀습니다.",
     qnav_about: "소개", qnav_langs: "언어", qnav_soft: "소프트 스킬", qnav_tech: "기술", qnav_exp: "경력", qnav_stu: "학력", qnav_cert: "자격증",
     cert_eyebrow: "자격증 및 기타", cert_title: "자격증 및 수상 내역",
-    cert1_title: "대회 참가", cert1_desc: "프로그래밍 대회 참가 증명서입니다. 실제 대회 이름과 세부 정보로 교체하세요.",
+    cert1_title: "대회 참가", cert1_desc: "아두이노(Arduino) 대회 참가 증명서입니다.",
     cert_view: "PDF 보기 →", cert_note: "더 많은 자격증이 곧 추가됩니다.",
 
     projects_eyebrow: "선정된 작업", projects_title_1: "제가 설계, 구축,", projects_title_2: "함께 고생한 것들.",
@@ -931,7 +931,7 @@ const TRANSLATIONS = {
     stu2_role: "高等职业培训（多平台开发）", stu2_desc: "学习了基础编程、数据库以及网站结构和设计。同时也提升了冲突解决能力，以及批判性思维和时间管理等其他能力。",
     qnav_about: "关于我", qnav_langs: "语言", qnav_soft: "软技能", qnav_tech: "技能", qnav_exp: "经历", qnav_stu: "学业", qnav_cert: "证书",
     cert_eyebrow: "证书与其他", cert_title: "证书与成就",
-    cert1_title: "比赛参与证明", cert1_desc: "编程比赛参与证书。请将此文本替换为真实的比赛名称和详细信息。",
+    cert1_title: "比赛参与证明", cert1_desc: "Arduino 比赛参与证书。",
     cert_view: "查看 PDF →", cert_note: "更多证书即将添加。",
  
     projects_eyebrow: "精选作品", projects_title_1: "这些是我", projects_title_2: "设计、构建并为之心力交瘁的项目。",
