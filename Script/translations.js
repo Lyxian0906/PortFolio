@@ -35,7 +35,7 @@ const TRANSLATIONS = {
     stu2_role: "Higher Vocational Training (Multiplatform Development)", stu2_desc: "Learned the basics of programming, databases, and website structure and design. I also improved my conflict resolution skills, along with others like critical thinking and time management.",
     qnav_about: "About", qnav_langs: "Languages", qnav_soft: "Soft Skills", qnav_tech: "Skills", qnav_exp: "Experience", qnav_stu: "Studies", qnav_cert: "Certificates",
     cert_eyebrow: "CERTIFICATES & EXTRAS", cert_title: "Certificates & Achievements",
-    cert1_title: "Contest Participation", cert1_desc: "Certificate of participation in a programming contest. Replace this text with the real contest name and details.",
+    cert1_title: "Contest Participation", cert1_desc: "Certificate of participation in a Arduino contest",
     cert_view: "View PDF →", cert_note: "More certificates coming soon.",
 
     projects_eyebrow: "SELECTED WORK", projects_title_1: "Things I've", projects_title_2: "designed, built, and cried with.",
