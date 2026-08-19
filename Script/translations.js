@@ -20,7 +20,7 @@ const TRANSLATIONS = {
     footer_note: "© 2026 Lyxian. Built with too much coffee and not enough sleep.",
 
     about_eyebrow: "ABOUT ME",
-    about_title_1: "Hey, I'm Lyx —", about_title_2: "I build websites and software.",
+    about_title_1: "Hey, I'm Lyx ", about_title_2: "I build websites and software.",
     about_lead: "Hello, I'm Lyx, I'm 20 years old, and I'm currently a software development student who enjoys building projects and learning new technologies. I love challenging myself by creating things on my own and exploring new ideas. Outside of programming, I enjoy video games, books, hiking, drawing, and traveling. I also love listening to music every chance I get. One of my biggest dreams is to develop my own video game, combining my passion for programming with digital design.",
     lang_eyebrow: "LANGUAGES", lang_name_en: "English", lang_name_es: "Spanish", lang_name_ko: "Korean",
     others_eyebrow: "SOFT SKILLS",
@@ -148,7 +148,7 @@ const TRANSLATIONS = {
     footer_note: "© 2026 Lyxian. Hecho con demasiado café y poco sueño.",
 
     about_eyebrow: "SOBRE MÍ",
-    about_title_1: "Hola, soy Lyx —", about_title_2: "construyo sitios web y software.",
+    about_title_1: "Hola, soy Lyx ", about_title_2: "construyo sitios web y software.",
     about_lead: "Hola, soy Lyx, tengo 20 años y actualmente soy estudiante de desarrollo de software. Disfruto creando proyectos y aprendiendo nuevas tecnologías. Me encanta desafiarme creando cosas por mi cuenta y explorando nuevas ideas. Fuera de la programación, disfruto de los videojuegos, los libros, el senderismo, el dibujo y viajar. También me encanta escuchar música siempre que puedo. Uno de mis mayores sueños es desarrollar mi propio videojuego, combinando mi pasión por la programación con el diseño digital.",
     lang_eyebrow: "IDIOMAS", lang_name_en: "Inglés", lang_name_es: "Español", lang_name_ko: "Coreano",
     others_eyebrow: "HABILIDADES BLANDAS",
@@ -276,7 +276,7 @@ const TRANSLATIONS = {
     footer_note: "© 2026 Lyxian. Fait avec beaucoup trop de café et pas assez de sommeil.",
 
     about_eyebrow: "À PROPOS DE MOI",
-    about_title_1: "Salut, je suis Lyx —", about_title_2: "je construis des sites web et des logiciels.",
+    about_title_1: "Salut, je suis Lyx ", about_title_2: "je construis des sites web et des logiciels.",
     about_lead: "Salut, je suis Lyx, j'ai 20 ans et je suis actuellement étudiante en développement logiciel. J'aime créer des projets et apprendre de nouvelles technologies. J'aime me lancer des défis en créant des choses par moi-même et en explorant de nouvelles idées. En dehors de la programmation, j'aime les jeux vidéo, les livres, la randonnée, le dessin et les voyages. J'adore aussi écouter de la musique dès que je peux. L'un de mes plus grands rêves est de développer mon propre jeu vidéo, en combinant ma passion pour la programmation avec le design numérique.",
     lang_eyebrow: "LANGUES", lang_name_en: "Anglais", lang_name_es: "Espagnol", lang_name_ko: "Coréen",
     others_eyebrow: "COMPÉTENCES INTERPERSONNELLES",
@@ -404,7 +404,7 @@ const TRANSLATIONS = {
     footer_note: "© 2026 Lyxian. Fatto con troppo caffè e poco sonno.",
 
     about_eyebrow: "CHI SONO",
-    about_title_1: "Ciao, sono Lyx —", about_title_2: "costruisco siti web e software.",
+    about_title_1: "Ciao, sono Lyx ", about_title_2: "costruisco siti web e software.",
     about_lead: "Ciao, sono Lyx, ho 20 anni e attualmente sono una studentessa di sviluppo software. Mi piace creare progetti e imparare nuove tecnologie. Mi piace mettermi alla prova creando cose da sola ed esplorando nuove idee. Al di fuori della programmazione, mi piacciono i videogiochi, i libri, le escursioni, il disegno e i viaggi. Adoro anche ascoltare musica ogni volta che posso. Uno dei miei più grandi sogni è sviluppare un mio videogioco, unendo la mia passione per la programmazione al design digitale.",
     lang_eyebrow: "LINGUE", lang_name_en: "Inglese", lang_name_es: "Spagnolo", lang_name_ko: "Coreano",
     others_eyebrow: "SOFT SKILLS",
@@ -532,7 +532,7 @@ const TRANSLATIONS = {
     footer_note: "© 2026 Lyxian. Сделано на слишком большом количестве кофе и слишком малом количестве сна.",
 
     about_eyebrow: "ОБО МНЕ",
-    about_title_1: "Привет, я Lyx —", about_title_2: "я создаю сайты и программы.",
+    about_title_1: "Привет, я Lyx ", about_title_2: "я создаю сайты и программы.",
     about_lead: "Привет, я Lyx, мне 20 лет, и сейчас я студентка, изучающая разработку программного обеспечения. Мне нравится создавать проекты и изучать новые технологии. Я люблю бросать себе вызов, создавая что-то самостоятельно и исследуя новые идеи. Помимо программирования, я увлекаюсь видеоиграми, книгами, походами, рисованием и путешествиями. Также я обожаю слушать музыку при любой возможности. Одна из моих главных мечт — разработать собственную видеоигру, объединив страсть к программированию с цифровым дизайном.",
     lang_eyebrow: "ЯЗЫКИ", lang_name_en: "Английский", lang_name_es: "Испанский", lang_name_ko: "Корейский",
     others_eyebrow: "ГИБКИЕ НАВЫКИ",
@@ -661,7 +661,7 @@ const TRANSLATIONS = {
     footer_note: "© 2026 Lyxian. コーヒーを飲みすぎて睡眠不足気味に制作。",
 
     about_eyebrow: "プロフィール",
-    about_title_1: "こんにちは、Lyxです —", about_title_2: "Webサイトとソフトウェアを作っています。",
+    about_title_1: "こんにちは、Lyxです ", about_title_2: "Webサイトとソフトウェアを作っています。",
     about_lead: "こんにちは、Lyxです。20歳で、現在ソフトウェア開発を学ぶ学生です。プロジェクトを作ったり新しい技術を学んだりするのが好きです。自分の力で何かを作り、新しいアイデアを探求することに挑戦するのが好きです。プログラミング以外では、ビデオゲーム、読書、ハイキング、絵を描くこと、旅行を楽しんでいます。時間があればいつでも音楽を聴くのも大好きです。プログラミングへの情熱とデジタルデザインを組み合わせて、自分自身のビデオゲームを開発することが一番の夢の一つです。",
     lang_eyebrow: "言語", lang_name_en: "英語", lang_name_es: "スペイン語", lang_name_ko: "韓国語",
     others_eyebrow: "ソフトスキル",
@@ -789,7 +789,7 @@ const TRANSLATIONS = {
     footer_note: "© 2026 Lyxian. 커피는 너무 많이, 잠은 부족하게 만들었습니다.",
 
     about_eyebrow: "소개",
-    about_title_1: "안녕하세요, Lyx입니다 —", about_title_2: "웹사이트와 소프트웨어를 만듭니다.",
+    about_title_1: "안녕하세요, Lyx입니다 ", about_title_2: "웹사이트와 소프트웨어를 만듭니다.",
     about_lead: "안녕하세요, 저는 Lyx입니다. 저는 20살이고, 현재 소프트웨어 개발을 공부하는 학생입니다. 프로젝트를 만들고 새로운 기술을 배우는 것을 즐깁니다. 스스로 무언가를 만들고 새로운 아이디어를 탐구하며 도전하는 것을 좋아합니다. 프로그래밍 외에는 비디오 게임, 독서, 하이킹, 그림 그리기, 여행을 즐깁니다. 또한 기회가 될 때마다 음악 듣는 것도 정말 좋아합니다. 프로그래밍에 대한 열정과 디지털 디자인을 결합해 저만의 비디오 게임을 개발하는 것이 가장 큰 꿈 중 하나입니다.",
     lang_eyebrow: "언어", lang_name_en: "영어", lang_name_es: "스페인어", lang_name_ko: "한국어",
     others_eyebrow: "소프트 스킬",
@@ -916,7 +916,7 @@ const TRANSLATIONS = {
     footer_note: "© 2026 Lyxian。靠太多咖啡和不够的睡眠制作而成。",
  
     about_eyebrow: "关于我",
-    about_title_1: "嗨，我是 Lyx —", about_title_2: "我制作网站和软件。",
+    about_title_1: "嗨，我是 Lyx ", about_title_2: "我制作网站和软件。",
     about_lead: "嗨，我是 Lyx，今年20岁，目前是一名软件开发专业的学生。我喜欢做项目和学习新技术。我喜欢挑战自己，独立创造东西，探索新想法。除了编程之外，我喜欢电子游戏、读书、徒步旅行、画画和旅行。只要有机会，我也非常喜欢听音乐。我最大的梦想之一就是开发属于自己的电子游戏，将我对编程的热情与数字设计结合起来。",
     lang_eyebrow: "语言", lang_name_en: "英语", lang_name_es: "西班牙语", lang_name_ko: "韩语",
     others_eyebrow: "软技能",
