@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Online Shop — Lyxian</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="../Style/style.css" />
+	</head>
+
+	<body>
+		<div class="blobs">
+			<div class="blob blob-1"></div>
+			<div class="blob blob-2"></div>
+			<div class="blob blob-3"></div>
+		</div>
+
+		<div class="cursor-glow"></div>
+
+		<header class="site-nav">
+			<div class="nav-inner">
+				<a href="../index.html" class="logo">lyx<span>.dev</span></a>
+
+				<nav class="nav-links">
+					<a href="../index.html" data-i18n="nav_home">Home</a>
+					<a href="../Others/about.html" data-i18n="nav_about">About</a>
+					<a href="../Others/projects.html" data-i18n="nav_projects">Projects</a>
+					<a href="../Others/contact.html" data-i18n="nav_contact">Contact</a>
+				</nav>
+
+				<button class="nav-toggle" aria-label="Toggle menu">☰</button>
+			</div>
+		</header>
+
+		<main>
+			<section class="wrap" style="padding-bottom: 0">
+				<a
+					href="../Others/projects.html"
+					class="tag"
+					style="
+						display: inline-block;
+						margin-bottom: 24px;
+						text-decoration: none;
+					"
+					data-i18n="lib_back"
+					>← Back to Projects</a
+				>
+
+				<p class="eyebrow reveal" data-i18n="lib_eyebrow">PROJECT GALLERY</p>
+
+				<h1
+					class="reveal"
+					style="font-size: clamp(2rem, 4vw, 2.8rem); max-width: 680px"
+				>
+					<span data-i18n="p13_title">Online Shop</span>
+				</h1>
+
+				<p class="lead reveal" style="max-width: 680px" data-i18n="p13_desc">
+					A full-stack online store for video games built with React, Node.js
+					and Express. Each user has their own account, cart, and order
+					history, stock is checked at checkout so sold-out games can't be
+					bought, and payments run through a mock card system with test cards.
+					The data lives in a PostgreSQL database on Supabase.
+				</p>
+
+				<div
+					style="
+						margin-top: 16px;
+						margin-bottom: 40px;
+						display: flex;
+						gap: 8px;
+						flex-wrap: wrap;
+					"
+				>
+					<span class="tag">React</span>
+					<span class="tag">JavaScript</span>
+					<span class="tag">Node.js</span>
+					<span class="tag">Express</span>
+					<span class="tag">PostgreSQL</span>
+					<span class="tag">Supabase</span>
+				</div>
+			</section>
+
+			<section class="wrap" style="padding-top: 0">
+				<div class="section-head reveal">
+					<p class="eyebrow" data-i18n="lib_gallery_eyebrow">SCREENSHOTS</p>
+					<h2 style="font-size: 2rem" data-i18n="lib_gallery_title">
+						Take a look inside my app
+					</h2>
+					<p class="lead" style="max-width: 640px" data-i18n="shop_gallery_note">
+						The shop app isn't deployed online yet, so here's a preview of what it
+						looks like in the meantime.
+					</p>
+				</div>
+
+				<div class="grid grid-2" style="gap: 24px">
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden"
+					>
+						<img
+							src="../Images/ImagesShop/shop-catalog.png"
+							alt="Online Shop — product catalog"
+							style="
+								display: block;
+								width: 100%;
+								height: 320px;
+								object-fit: contain;
+								margin-bottom: 16px;
+							"
+						/>
+
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="shop_shot1_title"
+							>
+								Product Catalog
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="shop_shot1_desc"
+							>
+								The home page lists the available games with their cover,
+								rating, price, and a quantity selector. Products that are sold
+								out can't be added to the cart.
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden"
+					>
+						<img
+							src="../Images/ImagesShop/shop-login.png"
+							alt="Online Shop — login and register"
+							style="
+								display: block;
+								width: 100%;
+								height: 320px;
+								object-fit: contain;
+								margin-bottom: 16px;
+							"
+						/>
+
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="shop_shot2_title"
+							>
+								Login &amp; Register
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="shop_shot2_desc"
+							>
+								Every cart and order belongs to a logged-in user, so visitors
+								have to create an account or sign in before they can shop.
+								Each user only ever sees their own data.
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden"
+					>
+						<img
+							src="../Images/ImagesShop/shop-cart.png"
+							alt="Online Shop — shopping cart and checkout"
+							style="
+								display: block;
+								width: 100%;
+								height: 320px;
+								object-fit: contain;
+								margin-bottom: 16px;
+							"
+						/>
+
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="shop_shot3_title"
+							>
+								Shopping Cart
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="shop_shot3_desc"
+							>
+								The checkout page shows the items in the cart with their
+								quantities and delivery options, plus a live payment summary
+								with shipping and tax.
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden"
+					>
+						<img
+							src="../Images/ImagesShop/shop-payment.png"
+							alt="Online Shop — mock payment with test cards"
+							style="
+								display: block;
+								width: 100%;
+								height: 320px;
+								object-fit: contain;
+								margin-bottom: 16px;
+							"
+						/>
+
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="shop_shot4_title"
+							>
+								Mock Payment
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="shop_shot4_desc"
+							>
+								A fake payment system that works like the test mode of a real
+								payment provider: the test card number decides whether the
+								payment succeeds, is declined, or has insufficient funds. No
+								real money is ever involved, and the server calculates the
+								amount itself.
+							</p>
+						</div>
+					</figure>
+
+					<figure
+						class="card card-glow reveal"
+						style="margin: 0; padding: 0; overflow: hidden; grid-column: 1 / -1"
+					>
+						<img
+							src="../Images/ImagesShop/shop-orders.png"
+							alt="Online Shop — order history"
+							style="
+								display: block;
+								width: 100%;
+								height: 380px;
+								object-fit: contain;
+								margin-bottom: 16px;
+							"
+						/>
+
+						<div style="padding: 0 20px 20px 20px">
+							<h3
+								style="font-size: 1.1rem; margin-bottom: 8px"
+								data-i18n="shop_shot5_title"
+							>
+								Orders
+							</h3>
+							<p
+								style="color: var(--text-dim); font-size: 0.95rem"
+								data-i18n="shop_shot5_desc"
+							>
+								After paying, orders appear in the order history with their
+								delivery dates, a button to buy the same products again, and
+								package tracking.
+							</p>
+						</div>
+					</figure>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<div class="wrap footer-inner">
+				<div class="footer-note" data-i18n="footer_note">
+					© 2026 Lyxian. Built with too much coffee and not enough sleep.
+				</div>
+
+				<div class="footer-links">
+					<a href="https://github.com/Lyxian0906">GitHub</a>
+					<a href="https://www.linkedin.com/in/alba-manzano-lópez">LinkedIn</a>
+					<a href="">Instagram (coming soon)</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../Script/translations.js"></script>
+		<script src="../Script/translations-shop.js"></script>
+		<script src="../Script/i18n.js"></script>
+		<script src="../Script/script.js"></script>
+	</body>
+</html>
