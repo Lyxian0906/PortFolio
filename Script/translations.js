@@ -128,6 +128,14 @@ const TRANSLATIONS = {
     btn_send: "Send Message →", btn_sending: "Sending...", btn_sent: "Message sent ✓",
     info_email_title: "Email", info_location_title: "Location", info_location_val: "Asturias, Spain (remote-friendly)",
     info_response_title: "Response time", info_response_val: "Usually within 24 hours (not for now)",
+
+        p13_title: "Online Shop", p13_desc: "A full-stack online store for video games built with React, Node.js and Express. Each user has their own account, cart, and order history, stock is checked at checkout so sold-out games can't be bought, and payments run through a mock card system with test cards. The data lives in a PostgreSQL database on Supabase.",
+    shop_gallery_note: "The shop isn't deployed online yet, so here's a preview of what it looks like in the meantime.",
+    shop_shot1_title: "Product Catalog", shop_shot1_desc: "The home page lists the available games with their cover, rating, price, and a quantity selector. Products that are sold out can't be added to the cart.",
+    shop_shot2_title: "Login & Register", shop_shot2_desc: "Every cart and order belongs to a logged-in user, so visitors have to create an account or sign in before they can shop. Each user only ever sees their own data.",
+    shop_shot3_title: "Shopping Cart", shop_shot3_desc: "The checkout page shows the items in the cart with their quantities and delivery options, plus a live payment summary with shipping and tax.",
+    shop_shot4_title: "Mock Payment", shop_shot4_desc: "A fake payment system that works like the test mode of a real payment provider: the test card number decides whether the payment succeeds, is declined, or has insufficient funds. No real money is ever involved, and the server calculates the amount itself.",
+    shop_shot5_title: "Orders", shop_shot5_desc: "After paying, orders appear in the order history with their delivery dates, a button to buy the same products again, and package tracking.",
   },
 
   es: {
@@ -259,6 +267,14 @@ const TRANSLATIONS = {
     btn_send: "Enviar Mensaje →", btn_sending: "Enviando...", btn_sent: "Mensaje enviado ✓",
     info_email_title: "Correo", info_location_title: "Ubicación", info_location_val: "Asturias, España (abierta a trabajo remoto)",
     info_response_title: "Tiempo de respuesta", info_response_val: "Normalmente en 24 horas (no por ahora)",
+
+        p13_title: "Tienda Online", p13_desc: "Una tienda online full-stack de videojuegos construida con React, Node.js y Express. Cada usuario tiene su propia cuenta, carrito e historial de pedidos, el stock se comprueba al pagar para que no se puedan comprar juegos agotados, y los pagos funcionan con un sistema de tarjetas simulado con tarjetas de prueba. Los datos se guardan en una base de datos PostgreSQL alojada en Supabase.",
+    shop_gallery_note: "La tienda aún no está desplegada online, así que aquí tienes un adelanto de cómo se ve por ahora.",
+    shop_shot1_title: "Catálogo de Productos", shop_shot1_desc: "La página principal muestra los juegos disponibles con su portada, valoración, precio y un selector de cantidad. Los productos agotados no se pueden añadir al carrito.",
+    shop_shot2_title: "Inicio de Sesión y Registro", shop_shot2_desc: "Cada carrito y cada pedido pertenece a un usuario con sesión iniciada, así que hay que crear una cuenta o iniciar sesión antes de comprar. Cada usuario solo ve sus propios datos.",
+    shop_shot3_title: "Carrito de la Compra", shop_shot3_desc: "La página de pago muestra los artículos del carrito con sus cantidades y opciones de envío, además de un resumen de pago en tiempo real con envío e impuestos.",
+    shop_shot4_title: "Pago Simulado", shop_shot4_desc: "Un sistema de pago falso que funciona como el modo de pruebas de un proveedor de pagos real: el número de la tarjeta de prueba decide si el pago se completa, se rechaza o no hay fondos suficientes. Nunca interviene dinero real y el servidor calcula el importe por su cuenta.",
+    shop_shot5_title: "Pedidos", shop_shot5_desc: "Tras pagar, los pedidos aparecen en el historial con sus fechas de entrega, un botón para volver a comprar y el seguimiento del paquete.",
   },
 
   fr: {
@@ -390,6 +406,14 @@ const TRANSLATIONS = {
     btn_send: "Envoyer le Message →", btn_sending: "Envoi...", btn_sent: "Message envoyé ✓",
     info_email_title: "Email", info_location_title: "Localisation", info_location_val: "Asturies, Espagne (télétravail possible)",
     info_response_title: "Temps de réponse", info_response_val: "Généralement sous 24 heures (pas pour le moment)",
+
+        p13_title: "Boutique en ligne", p13_desc: "Une boutique en ligne full-stack de jeux vidéo construite avec React, Node.js et Express. Chaque utilisateur a son propre compte, son panier et son historique de commandes, le stock est vérifié au paiement pour empêcher l'achat de jeux épuisés, et les paiements passent par un système de cartes simulé avec des cartes de test. Les données sont stockées dans une base PostgreSQL hébergée sur Supabase.",
+    shop_gallery_note: "La boutique n'est pas encore déployée en ligne, voici donc un aperçu de son apparence pour le moment.",
+    shop_shot1_title: "Catalogue de Produits", shop_shot1_desc: "La page d'accueil liste les jeux disponibles avec leur jaquette, leur note, leur prix et un sélecteur de quantité. Les produits épuisés ne peuvent pas être ajoutés au panier.",
+    shop_shot2_title: "Connexion et Inscription", shop_shot2_desc: "Chaque panier et chaque commande appartiennent à un utilisateur connecté : il faut donc créer un compte ou se connecter avant d'acheter. Chaque utilisateur ne voit que ses propres données.",
+    shop_shot3_title: "Panier", shop_shot3_desc: "La page de paiement affiche les articles du panier avec leurs quantités et options de livraison, ainsi qu'un récapitulatif de paiement en direct avec frais de port et taxes.",
+    shop_shot4_title: "Paiement Simulé", shop_shot4_desc: "Un faux système de paiement qui fonctionne comme le mode test d'un vrai prestataire : le numéro de la carte de test détermine si le paiement réussit, est refusé ou manque de fonds. Aucun argent réel n'est impliqué et le serveur calcule lui-même le montant.",
+    shop_shot5_title: "Commandes", shop_shot5_desc: "Après le paiement, les commandes apparaissent dans l'historique avec leurs dates de livraison, un bouton pour racheter les mêmes produits et le suivi du colis.",
   },
 
   it: {
@@ -521,6 +545,14 @@ const TRANSLATIONS = {
     btn_send: "Invia Messaggio →", btn_sending: "Invio...", btn_sent: "Messaggio inviato ✓",
     info_email_title: "Email", info_location_title: "Posizione", info_location_val: "Asturie, Spagna (disponibile da remoto)",
     info_response_title: "Tempo di risposta", info_response_val: "Solitamente entro 24 ore (non per ora)",
+
+        p13_title: "Negozio Online", p13_desc: "Un negozio online full-stack di videogiochi costruito con React, Node.js ed Express. Ogni utente ha il proprio account, carrello e storico degli ordini, la disponibilità viene verificata al pagamento così i giochi esauriti non possono essere acquistati, e i pagamenti passano da un sistema di carte simulato con carte di prova. I dati sono salvati in un database PostgreSQL ospitato su Supabase.",
+    shop_gallery_note: "Il negozio non è ancora pubblicato online, quindi ecco un'anteprima di come appare per ora.",
+    shop_shot1_title: "Catalogo Prodotti", shop_shot1_desc: "La home mostra i giochi disponibili con copertina, valutazione, prezzo e un selettore di quantità. I prodotti esauriti non possono essere aggiunti al carrello.",
+    shop_shot2_title: "Accesso e Registrazione", shop_shot2_desc: "Ogni carrello e ogni ordine appartengono a un utente connesso, quindi bisogna creare un account o accedere prima di acquistare. Ogni utente vede solo i propri dati.",
+    shop_shot3_title: "Carrello", shop_shot3_desc: "La pagina di pagamento mostra gli articoli nel carrello con quantità e opzioni di consegna, più un riepilogo del pagamento in tempo reale con spedizione e tasse.",
+    shop_shot4_title: "Pagamento Simulato", shop_shot4_desc: "Un finto sistema di pagamento che funziona come la modalità di test di un vero fornitore: il numero della carta di prova decide se il pagamento riesce, viene rifiutato o ha fondi insufficienti. Non c'è mai denaro reale e il server calcola l'importo da solo.",
+    shop_shot5_title: "Ordini", shop_shot5_desc: "Dopo il pagamento, gli ordini compaiono nello storico con le date di consegna, un pulsante per riacquistare gli stessi prodotti e il tracciamento del pacco.",
   },
 
   ru: {
@@ -652,6 +684,14 @@ const TRANSLATIONS = {
     btn_send: "Отправить Сообщение →", btn_sending: "Отправка...", btn_sent: "Сообщение отправлено ✓",
     info_email_title: "Почта", info_location_title: "Местоположение", info_location_val: "Астурия, Испания (готова к удалённой работе)",
     info_response_title: "Время ответа", info_response_val: "Обычно в течение 24 часов (пока нет)",
+
+    p13_title: "Интернет-магазин", p13_desc: "Полнофункциональный интернет-магазин видеоигр, созданный на React, Node.js и Express. У каждого пользователя есть собственный аккаунт, корзина и история заказов, наличие товара проверяется при оплате, поэтому распроданные игры купить нельзя, а платежи проходят через имитацию карточной системы с тестовыми картами. Данные хранятся в базе PostgreSQL на Supabase.",
+    shop_gallery_note: "Магазин пока не развёрнут онлайн, так что вот предварительный вид того, как он выглядит сейчас.",
+    shop_shot1_title: "Каталог товаров", shop_shot1_desc: "Главная страница показывает доступные игры с обложкой, рейтингом, ценой и выбором количества. Распроданные товары нельзя добавить в корзину.",
+    shop_shot2_title: "Вход и регистрация", shop_shot2_desc: "Каждая корзина и каждый заказ принадлежат вошедшему в систему пользователю, поэтому перед покупкой нужно создать аккаунт или войти. Каждый пользователь видит только свои данные.",
+    shop_shot3_title: "Корзина", shop_shot3_desc: "Страница оформления заказа показывает товары в корзине с количеством и вариантами доставки, а также сводку оплаты в реальном времени с доставкой и налогом.",
+    shop_shot4_title: "Имитация оплаты", shop_shot4_desc: "Фальшивая платёжная система работает как тестовый режим настоящего платёжного провайдера: номер тестовой карты определяет, пройдёт ли платёж, будет ли он отклонён или на карте не хватит средств. Реальные деньги не используются, а сумму сервер рассчитывает сам.",
+    shop_shot5_title: "Заказы", shop_shot5_desc: "После оплаты заказы появляются в истории с датами доставки, кнопкой «купить снова» и отслеживанием посылки.",
   },
 
 
@@ -784,6 +824,14 @@ const TRANSLATIONS = {
     btn_send: "メッセージを送信 →", btn_sending: "送信中...", btn_sent: "送信しました ✓",
     info_email_title: "メール", info_location_title: "所在地", info_location_val: "アストゥリアス、スペイン（リモート勤務可）",
     info_response_title: "返信時間", info_response_val: "通常24時間以内（現在は対応不可）",
+
+    p13_title: "オンラインショップ", p13_desc: "React、Node.js、Expressで構築したビデオゲームのフルスタックオンラインストア。ユーザーごとにアカウント、カート、注文履歴があり、支払い時に在庫を確認して売り切れのゲームは購入できず、決済にはテストカードを使った模擬カードシステムを採用している。データはSupabase上のPostgreSQLデータベースに保存される。",
+    shop_gallery_note: "ショップはまだオンラインで公開されていないので、現時点での見た目のプレビューです。",
+    shop_shot1_title: "商品カタログ", shop_shot1_desc: "ホーム画面には購入可能なゲームが、カバー画像、評価、価格、数量選択とともに表示される。売り切れの商品はカートに追加できない。",
+    shop_shot2_title: "ログインと新規登録", shop_shot2_desc: "カートも注文もログイン中のユーザーに紐づいているため、購入前にアカウント作成またはログインが必要。各ユーザーは自分のデータだけを見ることができる。",
+    shop_shot3_title: "ショッピングカート", shop_shot3_desc: "チェックアウト画面にはカート内の商品が数量と配送オプションとともに表示され、送料と税を含むリアルタイムの支払い概要も確認できる。",
+    shop_shot4_title: "模擬決済", shop_shot4_desc: "実際の決済サービスのテストモードのように動く偽の決済システム。テストカードの番号によって、支払いが成功するか、拒否されるか、残高不足になるかが決まる。実際のお金は一切使われず、金額はサーバー側で計算される。",
+    shop_shot5_title: "注文履歴", shop_shot5_desc: "支払い後、注文は配送予定日、再購入ボタン、荷物の追跡とともに注文履歴に表示される。",
   },
 
   ko: {
@@ -915,6 +963,14 @@ const TRANSLATIONS = {
     btn_send: "메시지 보내기 →", btn_sending: "전송 중...", btn_sent: "메시지가 전송되었습니다 ✓",
     info_email_title: "이메일", info_location_title: "위치", info_location_val: "아스투리아스, 스페인 (원격 근무 가능)",
     info_response_title: "응답 시간", info_response_val: "보통 24시간 이내 (현재는 어려움)",
+
+    p13_title: "온라인 쇼핑몰", p13_desc: "React, Node.js, Express로 만든 비디오 게임 풀스택 온라인 스토어입니다. 사용자마다 자신의 계정, 장바구니, 주문 내역이 있고, 결제 시 재고를 확인해 품절된 게임은 구매할 수 없으며, 결제는 테스트 카드를 사용하는 모의 카드 시스템으로 처리됩니다. 데이터는 Supabase의 PostgreSQL 데이터베이스에 저장됩니다.",
+    shop_gallery_note: "쇼핑몰은 아직 온라인으로 배포되지 않아, 현재 모습을 미리 볼 수 있도록 준비했습니다.",
+    shop_shot1_title: "상품 카탈로그", shop_shot1_desc: "홈 화면에는 구매 가능한 게임이 표지, 평점, 가격, 수량 선택기와 함께 표시됩니다. 품절된 상품은 장바구니에 담을 수 없습니다.",
+    shop_shot2_title: "로그인 및 회원가입", shop_shot2_desc: "모든 장바구니와 주문은 로그인한 사용자에게 속하므로, 구매 전에 계정을 만들거나 로그인해야 합니다. 각 사용자는 자신의 데이터만 볼 수 있습니다.",
+    shop_shot3_title: "장바구니", shop_shot3_desc: "결제 페이지에는 장바구니의 상품이 수량 및 배송 옵션과 함께 표시되며, 배송비와 세금이 포함된 실시간 결제 요약도 볼 수 있습니다.",
+    shop_shot4_title: "모의 결제", shop_shot4_desc: "실제 결제 서비스의 테스트 모드처럼 동작하는 가짜 결제 시스템입니다. 테스트 카드 번호에 따라 결제가 성공하거나, 거절되거나, 잔액이 부족해집니다. 실제 돈은 전혀 오가지 않으며 금액은 서버가 직접 계산합니다.",
+    shop_shot5_title: "주문 내역", shop_shot5_desc: "결제 후 주문은 배송 예정일, 다시 구매 버튼, 택배 추적과 함께 주문 내역에 표시됩니다.",
   },
     zh: {
     nav_home: "首页", nav_about: "关于我", nav_projects: "项目", nav_contact: "联系方式",
@@ -1045,6 +1101,15 @@ const TRANSLATIONS = {
     btn_send: "发送消息 →", btn_sending: "发送中...", btn_sent: "消息已发送 ✓",
     info_email_title: "邮箱", info_location_title: "所在地", info_location_val: "西班牙阿斯图里亚斯（可远程工作）",
     info_response_title: "回复时间", info_response_val: "通常在24小时内（目前暂不适用）",
+
+    p13_title: "网上商店", p13_desc: "一个使用 React、Node.js 和 Express 构建的全栈电子游戏网上商店。每位用户都有自己的账户、购物车和订单记录，结账时会检查库存，因此已售罄的游戏无法购买，支付则通过使用测试卡的模拟刷卡系统完成。数据保存在 Supabase 上的 PostgreSQL 数据库中。",
+    shop_gallery_note: "商店尚未在线部署，这里先展示目前的界面预览。",
+    shop_shot1_title: "商品目录", shop_shot1_desc: "首页展示可购买的游戏，包含封面、评分、价格和数量选择器。已售罄的商品无法加入购物车。",
+    shop_shot2_title: "登录与注册", shop_shot2_desc: "每个购物车和订单都属于已登录的用户，因此购物前需要先注册账户或登录。每位用户只能看到自己的数据。",
+    shop_shot3_title: "购物车", shop_shot3_desc: "结账页面显示购物车中的商品及其数量和配送选项，并实时显示包含运费和税费的付款摘要。",
+    shop_shot4_title: "模拟支付", shop_shot4_desc: "一个虚拟的支付系统，工作方式类似真实支付服务商的测试模式：测试卡号决定支付是成功、被拒绝，还是余额不足。全程不涉及真实资金，金额由服务器自行计算。",
+    shop_shot5_title: "订单", shop_shot5_desc: "付款后，订单会出现在订单记录中，附有预计送达日期、再次购买按钮和包裹追踪功能。",
+
   },
 
 };
