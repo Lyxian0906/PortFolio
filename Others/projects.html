@@ -96,7 +96,7 @@
 						<div class="project-card-top">
 							<div class="icon-tile">📖</div>
 							<div class="project-links">
-								<a href="../Secondary/library.html"link_live">Live</a>
+								<a href="../Secondary/library.html" data-i18n="link_live">Live</a>
 								<a href="../Secondary/library.html" data-i18n="link_code">Code</a>
 							</div>
 						</div>
@@ -305,7 +305,8 @@
 							<span class="tag">Desktop Application (IN THE FUTURE)</span>
 						</div>
 					</div>
-										<div
+
+					<div
 						class="card card-glow project-card reveal"
 						data-tags="fullstack java"
 					>
@@ -335,7 +336,8 @@
 							<span class="tag">HTML</span>
 						</div>
 					</div>
-										<div
+
+					<div
 						class="card card-glow project-card reveal"
 						data-tags="fullstack java"
 					>
@@ -477,61 +479,60 @@
 					</div>
 
 					<div
-   						 class="card card-glow project-card reveal"
-    					 data-tags="frontend react"
+						class="card card-glow project-card reveal"
+						data-tags="frontend react"
 					>
-					<div class="project-card-top">
-					<div class="icon-tile">💬</div>
-					<div class="project-links">
-						<a href="../Secondary/chatbot.html" data-i18n="link_live">Live (not live)</a>
-						<a href="https://github.com/Lyxian0906/React-ChatBot" data-i18n="link_code">Code</a>
-					</div>
-				</div>
-
-				<h3 data-i18n="p12_title">React Chatbot</h3>
-				<p
-					style="color: var(--text-dim); font-size: 0.8rem; font-style: italic; margin-top: 4px; margin-bottom: 0"
-					data-i18n="wip_note"
-				>
-					Work in progress built with help of courses.
-				</p>
-
-				<p style="color: var(--text-dim); font-size: 0.95rem">
-					<span data-i18n="p12_desc">
-						A chatbot web app built with React. The interface is split into
-						reusable components (chat input and chat messages) that receive
-						their data through props, with JSX compiled in the browser by
-						Babel. My first "big" react proyect.
-					</span>
-				</p>
-
-				<div
-					style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
-				>
-					<span class="tag">React</span>
-					<span class="tag">JavaScript</span>
-					<span class="tag">JSX</span>
-					<span class="tag">Babel</span>
-					<span class="tag">HTML/CSS</span>
-				</div>
-				</div>
-				<div class="card card-glow project-card reveal" data-tags="fullstack">
 						<div class="project-card-top">
-							<div class="icon-tile">CS</div>
-
+							<div class="icon-tile">💬</div>
 							<div class="project-links">
-								<a href="" target="_blank" rel="noopener" data-i18n="link_live"
-									>Live</a
-								>
-								<a href="" target="_blank" rel="noopener" data-i18n="link_code"
-									>Code</a
+								<a href="../Secondary/chatbot.html" data-i18n="link_live">Live (not live)</a>
+								<a href="https://github.com/Lyxian0906/React-ChatBot" data-i18n="link_code">Code</a>
+							</div>
+						</div>
+
+						<h3 data-i18n="p12_title">React Chatbot</h3>
+						<p
+							style="color: var(--text-dim); font-size: 0.8rem; font-style: italic; margin-top: 4px; margin-bottom: 0"
+							data-i18n="wip_note"
+						>
+							Work in progress built with help of courses.
+						</p>
+
+						<p style="color: var(--text-dim); font-size: 0.95rem">
+							<span data-i18n="p12_desc">
+								A chatbot web app built with React. The interface is split into
+								reusable components (chat input and chat messages) that receive
+								their data through props, with JSX compiled in the browser by
+								Babel. My first "big" react proyect.
+							</span>
+						</p>
+
+						<div
+							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
+						>
+							<span class="tag">React</span>
+							<span class="tag">JavaScript</span>
+							<span class="tag">JSX</span>
+							<span class="tag">Babel</span>
+							<span class="tag">HTML/CSS</span>
+						</div>
+					</div>
+
+					<div class="card card-glow project-card reveal" data-tags="fullstack backend react">
+						<div class="project-card-top">
+							<div class="icon-tile">🛒</div>
+							<div class="project-links">
+								<a href="../Secondary/onlineShop.html" data-i18n="link_live">Live</a>
+								<span
+									class="tag"
+									style="opacity: 0.7; cursor: default"
+									data-i18n="link_coming_soon"
+									>Coming soon</span
 								>
 							</div>
 						</div>
 
-						<h3 data-i18n="p13_title">
-							Coming soon
-						</h3>
+						<h3 data-i18n="p13_title">Online Shop</h3>
 						<p
 							style="color: var(--text-dim); font-size: 0.8rem; font-style: italic; margin-top: 4px; margin-bottom: 0"
 							data-i18n="not_public_note"
@@ -541,7 +542,12 @@
 
 						<p style="color: var(--text-dim); font-size: 0.95rem">
 							<span data-i18n="p13_desc">
-								Coming soon
+								A full-stack online store for video games built with React,
+								Node.js and Express. Each user has their own account, cart, and
+								order history, stock is checked at checkout so sold-out games
+								can't be bought, and payments run through a mock card system
+								with test cards. The data lives in a PostgreSQL database on
+								Supabase.
 							</span>
 						</p>
 
@@ -549,11 +555,14 @@
 							style="margin-top: 16px; display: flex; gap: 8px; flex-wrap: wrap"
 						>
 							<span class="tag">React</span>
-							<span class="tag">SQL</span>
-							<span class="tag">AWS</span>
 							<span class="tag">JavaScript</span>
+							<span class="tag">Node.js</span>
+							<span class="tag">Express</span>
+							<span class="tag">PostgreSQL</span>
+							<span class="tag">Supabase</span>
 						</div>
 					</div>
+				</div>
 			</section>
 		</main>
 
@@ -571,6 +580,8 @@
 		</footer>
 
 		<script src="../Script/translations.js"></script>
+		<script src="../Script/translations-shop.js"></script>
 		<script src="../Script/i18n.js"></script>
 		<script src="../Script/script.js"></script>
 	</body>
+</html>
