@@ -76,3 +76,5 @@ document.addEventListener("DOMContentLoaded", () => {
   buildLangSwitcher();
   applyTranslations(getCurrentLang());
 });
+
+//Test
